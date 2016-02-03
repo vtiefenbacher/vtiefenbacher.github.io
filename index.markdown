@@ -8,6 +8,6 @@ images:
 ---
 
 ## AKTUELL:  
-**Buch projekt für das Forum Umweltbildung**  
+Buchprojekt für das Forum Umweltbildung 
 
 <http://www.umweltbildung.at/nachrichten/langtexte/neuerscheinung-von-schweinen-und-brillanten.html>{:target="_blank"}

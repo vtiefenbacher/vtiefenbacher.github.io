@@ -34,35 +34,19 @@ images:
     alt: stadtwildnis img7
     title: Ballpen drawings on paper, 2014
 ---
-Die Serie "Get yours now!“ bedient sich einer uns vertrauten Ästhetik. Bilder des Protests und der politischen Gewalt, die wir aus Medienberichterstattung kennen, enttarnen sich als Darstellung eines destruktiven Massenkonsums. Die Schlacht um Sonderangebote.
-Vorbilder waren Youtube Videos zweier Verkaufsevents, die durch einen überdurchschnittlichen Ansturm der Konsumenten eskalierten. Die Vielfalt der einzelnen Blickwinkel, bedingt durch die schnelle Verfügbarkeit von Handykameras, lassen ein Bild aus verschiedensten Blickwinkeln entstehen.
-Der Quantität an Videos steht das klassische Ölgemälde als Unikat entgegen. Die Frage nach der Wertigkeit der einzelnen Medien steht im Raum. Das verpixelte Youtube Still wird in seiner Wertigkeit erhöht und zum Kunstgegenstand transformiert.
-American Apparel and Mediamarkt grand opening, oil on canvas, 2m x1,5m 2012/13
+EXPEDITIONSNOTIZEN
 
-The series “Get yours now!” uses familiar aesthetics. Images of protests against political violence, like we know them from media coverage, reveal themselves to be representations of destructive mass consumerism. The battle for special offers.
-
-The pictures are based on two Youtube videos of sales events which escalated through the exceptional number of customers in attendance. The diversity of different viewpoints, created through the ready availability of camera phones, create a multi-layered image.
-
-The quantity of video material is juxtaposed by the oil painting as a unique object, raising the question of the different media’s worth. The pixalated Youtube still is elevated in its worth and transformed into art.
+Auf den ersten Blick gibt nur mehr wenig unerforschtes Gebiet auf unserer Erde. Die Zeit der großen Expeditionen ist vorbei. Was bleibt, ist ein genaueres Hinschauen auf das Nahe, Banale, Alltägliche. In Anlehnung an ExpeditionszeichnerInnen im vorfotografischen Zeitalter, entstand eine Dokumentationsreise in die „Wiener Stadtwildnis“, eine unbebaute Fläche, die von Gemeindebauten und Tennisplätzen umgeben ist. Eigentlich nichts weiter, als der Weg von a nach b, ein bisschen verwachsen, ein bisschen Gestrüpp, sehr beliebt als Hunde-Gassi- Route.
+Das Kuriose an diesem Gebiet ist seine Deklaration als Wildnis, bedingt durch ein Schild der Stadt Wien. „Stadtwildnis - Diese Stadtwildnis ist eine der letzten naturbelassenen Landschaften im dichtverbauten Bereich des 3. Bezirks und beinhaltet das Naturdenkmal 752-Donauprallhang. Bitte begehen Sie nur die mit Pflöcken markierten Wege.“
+Begonnen nur wegen der Absurdität des aufgestellten Schildes, erschloss sich bald eine viel größere Welt alltäglicher Wunderlichkeiten. Verborgen zwischen Gestrüpp ganze Wohnblocks für Wildkatzen, gebaut aus Müll und Ikea Kästen, Briefe an die Nachbarn und geheime Verstecke von Obdachlosen, ganze Lagerstädten aus Gewand, Dosen, Flaschen, Exkremente und Make-up Tuben.
+Die Zeichnung als Mittel der Forschung wurde zum Stilmittel. Durch die Aneignung einer scheinbar wissenschaftlichen Arbeitsweise gelang es, den Fokus auf das Unscheinbare zu richten und die Schönheit und auch das schockierende Elemente des Banalen in den Mittelpunkt zu rücken.
+Es entstanden naturalistische Kugelschreiberzeichnungen auf Aquarellpapier. In Schaukästen sind Fundstücke aus der Wildnis zu sehen. Als Referenz zur musealen Münzensammlung liegen in weißen Samt gebetet, beleuchtete Müllstücke.
 
 
-<!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Art installation, ballpoint pen on paper, found objects in display cases 2014
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+At first glance there are no more unexplored parts of our planet. The time of big expeditions is over. What remains is taking a closer looking at the near, banal and everyday life. Invoking the expedition artists of an age before photography, this documentary of “Viennese urban wilderness” investigates an area of ground free from buildings which is surrounded by housing projects and tennis courts. Hidden between weeds stray cats have settled in structures built from debris, discarded Ikea furniture and letters to neighbours. Clothes, cans, bottles, make-up containers and faeces hint at the homeless.
 
-Jekyll also offers powerful support for code snippets:
+The scientific drawing becomes a stylistic device. Through the appropriation of a seemingly scientific method the focus is drawn to the inconspicuous, in an attempt to capture the beauty and the shocking element of banality.
 
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/ -->
+The results are naturalistic ballpoint pen drawings on watercolour paper. Display cases present found objects from the wilderness. In reference to museum coin collections pieces of debris are resting on white, brightly lit velvet.
