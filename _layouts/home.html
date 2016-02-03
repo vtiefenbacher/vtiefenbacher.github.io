@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="post">
+
+  <div id="coverpage">
+    <div id="columns">
+      {% for img in page.images %}
+        <div class='pin'>
+          <a href={{img.link}}>
+            <div class='image'>
+              <img src={{img.url}} />
+            </div>
+          </a>
+          <p>{{img.title}}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+
+</article>

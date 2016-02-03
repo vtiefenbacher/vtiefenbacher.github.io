@@ -4,8 +4,7 @@
   {% include head.html %}
 
   <body>
-
-    {% include side-menu.html %}
+    {% include side-menu{{page.categories}}.html %}
 
     <div id='right-container'>
       <div class="page-content">
@@ -14,7 +13,7 @@
         </div>
       </div>
     </div>
-    <!-- {% include footer.html %} -->
+    
   </body>
 
 </html>
