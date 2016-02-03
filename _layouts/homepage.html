@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<article class="homepage">
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% for img in page.images %}
+    <div class="image">
+      <img src={{img.url}} />
+    </div>
+  {% endfor %}
+
+
+</article>
