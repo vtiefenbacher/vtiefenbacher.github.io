@@ -13,10 +13,10 @@ layout: default
   </div>
 
   {% for img in page.images %}
-
-    <img class="gallery-img" src={{img.url}} />
-    <p>{{img.title}}</p>
-
+    <div class='gallery-img'>
+      <img src={{img.url}} />
+      <p>{{img.title}}</p>
+    </div>
   {% endfor %}
 
 </article>
