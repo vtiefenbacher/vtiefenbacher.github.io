@@ -9,4 +9,4 @@ images:
 
 ## AKTUELL:  
 Buchprojekt für das Forum Umweltbildung  
-[http://www.umweltbildung.at](http://www.umweltbildung.at/nachrichten/langtexte/neuerscheinung-von-schweinen-und-brillanten.html){:target="_blank"}
+[www.umweltbildung.at](http://www.umweltbildung.at/nachrichten/langtexte/neuerscheinung-von-schweinen-und-brillanten.html){:target="_blank"}
