@@ -23,6 +23,12 @@ ul {
 a {
   text-decoration: none;
   color: #000;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none; 
 }
 .post {
   padding-top: 30px;
@@ -124,14 +130,24 @@ a {
     // float: right;
     width: 100%;
     text-align: center;
-    margin-top: 10px;
+    padding-top: 10px;
     height: 30px;
+    padding-bottom: .5em;
+    // border-bottom: 1px solid #eee;
+    box-shadow: 0 0 6px #ddd;
+    position: fixed;
+    background-image: url('/assets/images/90opacity.png');
+    background-repeat: repeat;
+    z-index: 400;
   }
   #a-home {
-    // margin-left: -100px;
-    margin-top: 15px;
-    font-size: 1em;
-    z-index: 4000;
+    // margin-left: 1.5em;
+    // margin-top: 4.5em;
+
+    padding-top: .15em;
+  }
+  #a-home a {
+    font-size: 1.4em;
   }
 
 	.slicknav_menu {
@@ -152,6 +168,8 @@ a {
     background-color: white;
     width: 100%;
     padding: 0 15px;
+    z-index: 300;
+    border: 1px solid #eee;
   }
   .slicknav_btn {
     clear:both;
@@ -159,6 +177,7 @@ a {
     margin: 0 15px 0;
   }
   .menu-item a {
+    font-size: 1.3em;
     color: #333;
   }
   .menu-item:hover {
@@ -169,7 +188,9 @@ a {
     margin-left: auto;
     width: 100%;
     // padding: 0 20px;
+    padding-top: 2em;
   }
+
   .post-header, .post-content, .gallery-img {
     width: 95%;
     // position: relative;
@@ -177,8 +198,14 @@ a {
   }
   .post-content {
     text-align: justify;
+    font-size: 1.2em;
   }
   .gallery-img img {
     width: 100%;
+  }
+}
+@media screen and (max-width: 300px) {
+  #a-home {
+    font-size: 1.2em;
   }
 }
