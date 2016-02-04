@@ -28,7 +28,7 @@ a {
   -khtml-user-select: none;    /* Konqueror */
   -moz-user-select: none;      /* Firefox */
   -ms-user-select: none;       /* IE/Edge */
-  user-select: none; 
+  user-select: none;
 }
 .post {
   padding-top: 30px;
@@ -136,8 +136,9 @@ a {
     // border-bottom: 1px solid #eee;
     box-shadow: 0 0 6px #ddd;
     position: fixed;
-    background-image: url('/assets/images/90opacity.png');
-    background-repeat: repeat;
+    // background-image: url('/assets/images/90opacity.png');
+    // background-repeat: repeat;
+    background-color: rgba(255, 255, 255, .8);
     z-index: 400;
   }
   #a-home {
