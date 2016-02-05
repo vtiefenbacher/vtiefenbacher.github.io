@@ -4,7 +4,7 @@ categories: project
 title: Projekte
 images:
 
-  - url: /assets/images/projects/getyoursnow/art-getyoursnow-bild1_thumb.jpg
+  - url: /assets/images/projects/getyoursnow/Art-getyoursnow-bild1_thumb.jpg
     alt: Get Yours Now Img1
     title: Get Yours Now
     link: /projects/Get_Yours_Now
