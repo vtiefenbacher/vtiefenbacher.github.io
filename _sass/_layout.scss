@@ -94,11 +94,12 @@ a {
 }
 
 .post-content {
-  width: 80%;
+  width: 85%;
   max-height: 200px;
   margin-bottom: 25px;
   overflow: hidden;
   position: relative;
+  font-size: 1.1em;
 }
 .post-content:after {
   position: absolute;
@@ -126,7 +127,7 @@ a {
 }
 
 .gallery-img img {
-  width: 80%;
+  width: 85%;
 }
 
 .homepage {
