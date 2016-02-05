@@ -17,3 +17,9 @@ $(document).ready(function(){
     prependTo: '#home-link-mobile'
   });
 });
+
+
+function expand_text(obj){
+  $(obj).addClass('expanded');
+  
+}
