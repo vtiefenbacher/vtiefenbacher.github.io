@@ -1,5 +1,6 @@
 ---
 layout: homepage
+title: AKTUELL
 images:
 
   - url: /assets/images/schweine-und-brillanten.jpg
@@ -7,6 +8,5 @@ images:
     title: Schweine und Brillanten
 ---
 
-## AKTUELL:  
 Buchprojekt für das Forum Umweltbildung  
 [www.umweltbildung.at](http://www.umweltbildung.at/nachrichten/langtexte/neuerscheinung-von-schweinen-und-brillanten.html){:target="_blank"}
