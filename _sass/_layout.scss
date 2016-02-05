@@ -231,7 +231,7 @@ a {
     margin: 0 auto;
   }
   .post-header, .post-content {
-    width: 90%;
+    width: 93%;
     margin: 0 auto;
   }
 
@@ -242,6 +242,10 @@ a {
   }
   .gallery-img img {
     width: 100%;
+  }
+  .gallery-img p {
+    padding-left: .5em;
+    margin-top: 0;
   }
   .home-image {    //homepage
     width: 95%;
