@@ -1,6 +1,7 @@
 ---
 layout: homepage
 title: AKTUELL
+backimage: /assets/images/projects/stadwildnis/Art-Stadtwildnis-bild3.jpg
 images:
 
   - url: /assets/images/schweine-und-brillanten.jpg

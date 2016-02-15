@@ -9,8 +9,15 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody" onclick="expand_text(this);">
+    <div class="text-wrapper">
+      <div class='post-text'>
+        {{ content }}
+      </div>
+    </div>
+    {% if page.descriptionempty != true %}
+      <div id='expand-icon'><img src='../assets/images/expandicon.png' /></div>
 
-    {{ content }}
+    {% endif %}
   </div>
   {% for img in page.images %}
     <div class='gallery-img'>

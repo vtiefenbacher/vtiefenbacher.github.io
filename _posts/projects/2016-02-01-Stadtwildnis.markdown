@@ -4,6 +4,7 @@ title:  Stadtwildnis
 date:   2016-02-03 14:18:12 +0100
 categories: project
 permalink: /projects/Stadtwildnis
+backimage: /assets/images/projects/stadwildnis/Art-Stadtwildnis-bild3.jpg
 images:
 
   - url: /assets/images/projects/stadwildnis/Art-Stadtwildnis-bild1.jpg

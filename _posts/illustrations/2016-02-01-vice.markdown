@@ -4,6 +4,8 @@ title:  Vice
 date:   2016-02-03 14:18:12 +0100
 categories: illustration
 permalink: /illustrations/Vice
+descriptionempty: true
+backimage: /assets/images/illustrations/vice/Illustration-vice-1.jpg
 images:
 
   - url: /assets/images/illustrations/vice/Illustration-vice-1.jpg

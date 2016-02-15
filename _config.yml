@@ -17,5 +17,7 @@ url: "http://vtiefenbacher.github.io" # the base hostname & protocol for your si
 twitter_username: jekyllrb
 github_username:  jekyll
 
+paginate: 1
+
 # Build settings
 markdown: kramdown
