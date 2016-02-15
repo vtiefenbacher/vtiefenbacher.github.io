@@ -1,3 +1,14 @@
+var preload = function(src, callback) {
+  // Create a temporary image.
+  var img = new Image();
+
+  // Invoke the callback as soon as the image is loaded
+  // Has to be set **before** the .src attribute. Otherwise
+  // `onload` could fire before the handler is set.
+  $(img).load(callback);
+
+  img.src = src;
+};
 
 $(document).ready(function(){
   $('#side-menu').slicknav({
@@ -13,17 +24,23 @@ $(document).ready(function(){
   if ($('body').width() > 920) {
     var background = $('body').data('background');
     if (background != ''){
-      $('body').css('backgroundImage', 'url('+background+')');
-      load_background();
+      preload(background, function() {
+        $("body").addClass("hasloaded");
+        $("body").css('backgroundImage','url('+background+')');
+
+      });
     }
   }
 });
 
-function load_background() {
-  $('body').imagesLoaded(function(){
-    $('body').addClass('hasloaded');
-  })
-}
+
+
+// function load_background() {
+//
+//   $('body').imagesLoaded(function(){
+//     $('body').addClass('hasloaded');
+//   })
+// }
 
 function expand_text(obj){
   var height;
