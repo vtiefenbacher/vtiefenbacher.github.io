@@ -1,7 +1,7 @@
 ---
 layout: homepage
 title: AKTUELL
-backimage: /assets/images/projects/stadwildnis/Art-Stadtwildnis-bild7.jpg
+backimage: /assets/images/background/birkenwald2.jpg
 <!-- images:
 
   - url: /assets/images/schweine-und-brillanten.jpg
