@@ -9,7 +9,7 @@ images:
     title: Get Yours Now
     link: /projects/Get_Yours_Now
 
-  - url: /assets/images/projects/stadwildnis/Art-Stadtwildnis-bild3_thumb.jpg
+  - url: /assets/images/projects/home/Art-Stadtwildnis-bild3_thumb.jpg
     alt: stadtwildnis img3
     title: Stadtwildnis
     link: /projects/Stadtwildnis
