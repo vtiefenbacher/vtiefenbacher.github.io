@@ -191,13 +191,14 @@ a {
 .aboutpage {
   text-align: center;
   min-height: 500px;
-  display: table;
+  // width: auto;
+  // display: table;
 }
-
+//
 .about-content {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 0 20px;
+  // display: table-cell;
+  // vertical-align: middle;
+  // padding: 0 20px;
 }
 
 .slicknav_menu {
@@ -244,13 +245,25 @@ a {
 
   #right-container {
     margin-top: 20px;
+    margin-right: 20px;
   }
   .post {
     background-color: #fff;
-    width: 90%;
+    // width: 90%;
     padding: 20px 30px;
   }
-
+  // .aboutpage {
+  //   text-align: center;
+  //   min-height: 500px;
+  //   // width: 100%;
+  //   display: table;
+  // }
+  //
+  // .about-content {
+  //   display: table-cell;
+  //   vertical-align: middle;
+  //   // padding: 0 20px;
+  // }
 }
 
 @media screen and (max-width: 920px) {

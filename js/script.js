@@ -10,10 +10,12 @@ $(document).ready(function(){
   // if ($('.post-text').text()=='') {
   //   console.log('s empty');
   // }
-  var background = $('body').data('background');
-  if (background != ''){
-    $('body').css('backgroundImage', 'url('+background+')');
-    load_background();
+  if ($('body').width() > 920) {
+    var background = $('body').data('background');
+    if (background != ''){
+      $('body').css('backgroundImage', 'url('+background+')');
+      load_background();
+    }
   }
 });
 
