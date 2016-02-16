@@ -11,6 +11,7 @@ var preload = function(src, callback) {
 };
 
 $(document).ready(function(){
+
   $('#side-menu').slicknav({
     label: '',
     prependTo: '#home-link-mobile'
