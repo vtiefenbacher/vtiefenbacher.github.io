@@ -23,17 +23,17 @@ $(document).ready(function(){
     });
   }
 
-  function makeActive(url, direction){
-    activeLink.removeClass('active');
-    if (direction == 'down') {
-      activeLink.next().addClass('active');
-      activeLink = activeLink.next();
-    }
-    // if (direction == 'up') {
-    //   activeLink.prev().addClass('active');
-    //   activeLink = activeLink.prev();
-    // }
-  }
+  // function makeActive(url, direction){
+  //   activeLink.removeClass('active');
+  //   if (direction == 'down') {
+  //     activeLink.next().addClass('active');
+  //     activeLink = activeLink.next();
+  //   }
+  //   // if (direction == 'up') {
+  //   //   activeLink.prev().addClass('active');
+  //   //   activeLink = activeLink.prev();
+  //   // }
+  // }
 
   function makeLiActive(direction) {
     $.each(positionList, function(index, value){
@@ -52,6 +52,8 @@ $(document).ready(function(){
             activeLink = activeLink.prev();
           }
           window.history.pushState(null, activeLink.data('id'), activeLink.data('url'));
+          load_background(activeLink.data('back'));
+          console.log(activeLink.data('back'));
           // $('.li-side.active').removeClass('active');
           // $('#li'+currentProject).addClass('active');
 

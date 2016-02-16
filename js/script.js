@@ -5,9 +5,10 @@ var preload = function(src, callback) {
   // Invoke the callback as soon as the image is loaded
   // Has to be set **before** the .src attribute. Otherwise
   // `onload` could fire before the handler is set.
+  img.src = src;
   $(img).load(callback);
 
-  img.src = src;
+
 };
 
 $(document).ready(function(){
@@ -22,26 +23,29 @@ $(document).ready(function(){
   // if ($('.post-text').text()=='') {
   //   console.log('s empty');
   // }
-  if ($('body').width() > 920) {
-    var background = $('body').data('background');
-    if (background != ''){
-      preload(background, function() {
-        $("body").addClass("hasloaded");
-        $("body").css('backgroundImage','url('+background+')');
-
-      });
-    }
-  }
+  load_background($('body').data('background'));
 });
 
 
 
-// function load_background() {
-//
-//   $('body').imagesLoaded(function(){
-//     $('body').addClass('hasloaded');
-//   })
-// }
+function load_background(background) {
+  $("body").removeClass("hasloaded");
+  if ($('body').width() > 920) {
+    if (background != ''){
+      preload(background, function() {
+        $("body").addClass("hasloaded");
+        $("body").css('background','#fff url('+background+') no-repeat top center fixed');
+        $("body").css('backgroundSize', 'cover');
+      });
+    }
+    else {
+      $("body").addClass("hasloaded");
+      $("body").css('backgroundImage','none');
+      $("body").css('background', '#fff');
+
+    }
+  }
+}
 
 function expand_text(obj){
   var height;
