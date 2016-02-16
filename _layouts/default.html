@@ -4,18 +4,19 @@
   {% include head.html %}
 
   <body data-background={{page.backimage}}>
-    {% include side-menu{{page.categories}}.html %}
-    <div id='home-link-mobile'>
-      <div id='a-home'><a href='/'>VALERIE TIEFENBACHER</a></div>
-    </div>
-    <div id='right-container'>
-      <div class="page-content">
-        <div class="wrapper" id={{page.id}}>
-          {{ content }}
+    <div id='content-container'>
+      {% include side-menu{{page.categories}}.html %}
+      <div id='home-link-mobile'>
+        <div id='a-home'><a href='/'>VALERIE TIEFENBACHER</a></div>
+      </div>
+      <div id='right-container'>
+        <div class="page-content">
+          <div class="wrapper" id={{page.id}}>
+            {{ content }}
+          </div>
         </div>
       </div>
     </div>
-
   </body>
 
 </html>

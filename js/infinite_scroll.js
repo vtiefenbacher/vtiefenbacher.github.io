@@ -45,12 +45,13 @@ $(document).ready(function(){
           if (direction == 'down') {
             activeLink.next().addClass('active');
             activeLink = activeLink.next();
+
           }
           if (direction == 'up') {
             activeLink.prev().addClass('active');
             activeLink = activeLink.prev();
           }
-
+          window.history.pushState(null, activeLink.data('id'), activeLink.data('url'));
           // $('.li-side.active').removeClass('active');
           // $('#li'+currentProject).addClass('active');
 
