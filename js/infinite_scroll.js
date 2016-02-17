@@ -56,7 +56,7 @@ $(document).ready(function(){
             activeLink.prev().addClass('active');
             activeLink = activeLink.prev();
           }
-          window.history.pushState(null, activeLink.data('id'), activeLink.data('url'));
+          // window.history.pushState(null, activeLink.data('id'), activeLink.data('url'));
           load_background(activeLink.data('back'));
           // console.log(currentProject, activeLink.data('back'));
           // $('.li-side.active').removeClass('active');
