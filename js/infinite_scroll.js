@@ -1,10 +1,12 @@
+positionList = new Array();
 $(document).ready(function(){
   var lastScrollTop = 0,
       scrollDirection,
       scrollTop,
-      positionList = new Array(),
+
       activeLink = $('.li-side.active'),
       currentProject = activeLink.data('id');
+  // console.log($('.li-side.active').data('id'));
   // $('.li-side').each(function(i, e) {
   //   console.log(i, e);
   // });
@@ -19,9 +21,10 @@ $(document).ready(function(){
         $('#'+id).offset().top + $('#'+id).height(),
         id
       ));
-      console.log(positionList);
+      // console.log(positionList);
     });
   }
+
 
   // function makeActive(url, direction){
   //   activeLink.removeClass('active');
@@ -37,10 +40,12 @@ $(document).ready(function(){
 
   function makeLiActive(direction) {
     $.each(positionList, function(index, value){
+      // console.log(scrollTop);
       if (scrollTop >= positionList[index][0] && scrollTop <= positionList[index][1]){
         if (currentProject!=positionList[index][2]) {
+          // console.log(currentProject, positionList[index][2]);
           currentProject=positionList[index][2];
-          console.log(currentProject);
+
           activeLink.removeClass('active');
           if (direction == 'down') {
             activeLink.next().addClass('active');
@@ -53,17 +58,16 @@ $(document).ready(function(){
           }
           window.history.pushState(null, activeLink.data('id'), activeLink.data('url'));
           load_background(activeLink.data('back'));
-          console.log(activeLink.data('back'));
+          // console.log(currentProject, activeLink.data('back'));
           // $('.li-side.active').removeClass('active');
           // $('#li'+currentProject).addClass('active');
-
         }
+        // else {console.log('nananass');}
       }
     });
   }
 
   function loadmore(url, direction, title) {
-    console.log(url, direction);
     $.get(url, function(data){
       var html = $.parseHTML(data);
       var newHTML = $(html).find( '.page-content' ).html();
@@ -122,4 +126,7 @@ $(document).ready(function(){
     //   else {console.log('startofpage');}
     // }
   });
+
 });
+
+// ***************** text-expand ********************

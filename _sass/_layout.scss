@@ -139,15 +139,15 @@ a {
   // background-image: url('/assets/images/expandicon.png');
 }
 
-#expand-icon {
+.expand-icon {
   text-align: center;
 }
-#expand-icon img {
+.expand-icon img {
   width: 24px;
   cursor: pointer;
   opacity: .3;
 }
-#expand-icon img:hover {
+.expand-icon img:hover {
   opacity: 1;
 }
 .swapped img {
@@ -213,6 +213,7 @@ a {
 @media screen and (min-width: 921px) {
   body {
     // background-image: url('/assets/images/background.jpg');
+    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -237,6 +238,23 @@ a {
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     z-index: -100;
+  }
+
+  #fakeBack {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: #fff;
+    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    z-index: -100;
+  }
+  .fade {
+    opacity: 1 !important;
   }
 
   .hasloaded:after {

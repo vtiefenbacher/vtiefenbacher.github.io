@@ -5,6 +5,7 @@ title:  Get Yours Now
 date:   2016-02-03 14:18:12 +0100
 categories: project
 permalink: /projects/Get_Yours_Now
+backimage: /assets/images/projects/getyoursnow/art-getyoursnow-bild1.jpg
 images:
 
   - url: /assets/images/projects/getyoursnow/art-getyoursnow-bild1.jpg

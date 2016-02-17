@@ -8,14 +8,14 @@ layout: default
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
   </header>
 
-  <div class="post-content" itemprop="articleBody" onclick="expand_text(this);">
+  <div data-pid={{page.id}} class="post-content" itemprop="articleBody" onclick="expand_text(this);">
     <div class="text-wrapper">
       <div class='post-text'>
         {{ content }}
       </div>
     </div>
     {% if page.descriptionempty != true %}
-      <div id='expand-icon'><img src='../assets/images/expandicon.png' /></div>
+      <div class='expand-icon'><img src='../assets/images/expandicon.png' /></div>
 
     {% endif %}
   </div>

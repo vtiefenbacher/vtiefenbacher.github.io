@@ -31,26 +31,61 @@ $(document).ready(function(){
 function load_background(background) {
   $("body").removeClass("hasloaded");
   if ($('body').width() > 920) {
-    if (background != ''){
+    if (background != '' && background != undefined){
+      // $('body').append('<div id="fakeBack"></div>');
+      // $('#fakeBack').css('background','#fff url('+oldBackground+') no-repeat top center fixed')
+      // console.log(background);
       preload(background, function() {
+
         $("body").addClass("hasloaded");
         $("body").css('background','#fff url('+background+') no-repeat top center fixed');
         $("body").css('backgroundSize', 'cover');
+
       });
     }
     else {
-      $("body").addClass("hasloaded");
-      $("body").css('backgroundImage','none');
-      $("body").css('background', '#fff');
-
+      // console.log(background);
+      preload(background, function() {
+        $("body").addClass("hasloaded");
+        $("body").css('backgroundImage','none');
+        $("body").css('background-color', '#fff');
+      });
     }
   }
 }
 
+// function pushToList(id) {
+//   $('#'+id).imagesLoaded(function(){
+//     console.log();
+//     // console.log($('#'+id).height());
+//     positionList.push(Array(
+//       $('#'+id).offset().top,
+//       $('#'+id).offset().top + $('#'+id).height(),
+//       id
+//     ));
+//     // console.log(positionList);
+//   });
+// }
+
+function updatePositionList(id) {
+  $.each(positionList, function(index, value) {
+
+    var obj = positionList[index][2];
+    console.log($('#' + obj).height());
+    positionList[index][0] = $('#' + obj).offset().top;
+    positionList[index][1] = $('#' + obj).offset().top + $('#' + obj).height();
+    console.log(positionList[index]);
+  })
+}
+
 function expand_text(obj){
   var height;
-  $('.text-wrapper').toggleClass('expanded');
-  height = ($('.text-wrapper').hasClass('expanded') ? $('.post-text').height() + 20 : '200px');
-  $('.text-wrapper').css('max-height', height);
-  $('#expand-icon').toggleClass('swapped');
+  var $wrapper = $(obj).children('.text-wrapper');
+  $wrapper.toggleClass('expanded');
+  height = ($wrapper.hasClass('expanded') ? $wrapper.children('.post-text').height() + 20 : '200px');
+  $wrapper.css('max-height', height);
+  $wrapper.siblings('.expand-icon').toggleClass('swapped');
+  setTimeout(function(){
+    updatePositionList($(obj).data('pid'));
+  }, 1000)
 }
