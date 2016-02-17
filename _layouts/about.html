@@ -6,5 +6,10 @@ layout: default
   <div class="about-content">
     {{ content }}
   </div>
-
+  <br>
+  {% for img in page.images %}
+    <div class="about-image">
+      <img src={{img.url}} />
+    </div>
+  {% endfor %}
 </article>

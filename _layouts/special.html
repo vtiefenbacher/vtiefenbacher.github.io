@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body data-background={{page.backimage}}>
+    <div id='fakeBack'></div>
+    <div id='content-container'>
+      {% include side-menu{{page.categories}}.html %}
+      <div id='home-link-mobile'>
+        <div id='a-home'><a href='/'>VALERIE TIEFENBACHER</a></div>
+      </div>
+      
+    </div>
+  </body>
+
+</html>
