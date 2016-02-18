@@ -32,6 +32,6 @@ images:
   - url: /assets/images/projects/home/Projekte_skype_thumb.jpg
     alt: stadtwildnis img6
     title: Skype
-    link: /projects/Stadtwildnis
+    link: /projects/Skype
 
 ---

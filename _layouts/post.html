@@ -25,4 +25,10 @@ layout: default
       <p>{{img.title}}</p>
     </div>
   {% endfor %}
+  {% for track in page.audio %}
+    <p>{{track.title}}</p>
+    <audio controls>
+      <source src={{track.url}} type="audio/mpeg">
+    </audio>
+  {% endfor %}
 </article>

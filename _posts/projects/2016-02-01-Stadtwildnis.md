@@ -6,6 +6,10 @@ date:   2016-02-03 14:18:12 +0100
 categories: project
 permalink: /projects/Stadtwildnis
 backimage: /assets/images/projects/stadwildnis/Art-Stadtwildnis-bild3.jpg
+audio:
+  - url: /assets/audio/Audio-Zeichnung-kurz.mp3
+    title: Audio Zeichnung
+
 images:
 
   - url: /assets/images/projects/stadwildnis/Art-Stadtwildnis-bild1.jpg
