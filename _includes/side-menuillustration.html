@@ -8,13 +8,13 @@
   </a>
   <div id='side-menu'>
     <ul id='menu-list'>
-      <li class='menu-item'><a class='pjax' href='/news'>AKTUELL</a></li>
+      <li class='menu-item'><a class='pjax' href='/news'>News</a></li>
       <li class='menu-item'>
-        <a class='pjax' href='/projects'>Projekte</a>
+        <a class='pjax' href='/projects'>Projects</a>
       </li>
 
       <li class='menu-item'>
-        <a class='pjax active' href='/illustrations'>Illustration</a>
+        <a class='pjax active' href='/illustrations'>Illustrations</a>
         <ul class='submenu'>
           {% for post in site.categories['illustration'] %}
             <li {% if post.backimage %}data-back={{post.backimage}} {% endif %} data-id={{post.id}} data-url={{post.url}} {% if page.title == post.title %}class='li-side active'{% else %}class='li-side'{% endif %}>
@@ -23,8 +23,8 @@
           {% endfor %}
         </ul>
       </li>
-      <li class='menu-item'><a class='pjax' href='/about'>CV</a></li>
-      <li class='menu-item'><a class='pjax' href='/contact'>Kontakt</a></li>
+      <li class='menu-item'><a class='pjax' href='/about'>About</a></li>
+      <li class='menu-item'><a class='pjax' href='/contact'>Contact</a></li>
     </ul>
   </div>
 </div>
