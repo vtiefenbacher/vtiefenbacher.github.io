@@ -31,61 +31,63 @@
 }
 
 .pin.loaded {
-  opacity: 1;
-  transition: opacity .5s ease-in-out;
-  -webkit-transition: opacity .5s ease-in-out;
-  -moz-transition: opacity .5s ease-in-out;
+  opacity: .7;
+  transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
 }
-
-.img-caption p {
-  text-align: center;
-  opacity: 0;
-  padding: 16px 0;
-  margin: 0;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  transform: translateY(-50%);
-  color: #444;
-  font-family: Helvetica;
-  letter-spacing: 2px;
-  position: absolute;
-  font-size: 18px;
-  font-size: 2vw;
-  width: 100%;
-  vertical-align: middle;
-  top: 50%;
-  background-color: rgba(255, 255, 255, 0.6);
-  z-index: 200;
+.pin.loaded:hover {
+	opacity: 1;
 }
+// .img-caption p {
+//   text-align: center;
+//   opacity: 0;
+//   padding: 16px 0;
+//   margin: 0;
+//   -webkit-transform: translateY(-50%);
+//   -moz-transform: translateY(-50%);
+//   transform: translateY(-50%);
+//   color: #444;
+//   font-family: Helvetica;
+//   letter-spacing: 2px;
+//   position: absolute;
+//   font-size: 18px;
+//   font-size: 2vw;
+//   width: 100%;
+//   vertical-align: middle;
+//   top: 50%;
+//   background-color: rgba(255, 255, 255, 0.6);
+//   z-index: 200;
+// }
 
 
-.pin .image:after {
-  content: " ";
-  position: absolute;;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #fff;
-  opacity: 0;
-  transition: opacity .3s;
-  -webkit-transition: opacity .3s;
-  -moz-transition: opacity .3s;
-  z-index: 100;
+// .pin .image:after {
+//   content: " ";
+//   position: absolute;;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   background: #fff;
+//   opacity: 0;
+//   transition: opacity .3s;
+//   -webkit-transition: opacity .3s;
+//   -moz-transition: opacity .3s;
+//   z-index: 100;
+//
+// }
 
-}
 
+// .pin:hover .image:after {
+//   opacity: .5;
+// }
 
-.pin:hover .image:after {
-  opacity: .5;
-}
-
-.pin:hover p {
-  opacity: 1;
-  transition: opacity .3s;
-  -webkit-transition: opacity .3s;
-  -moz-transition: opacity .3s;
-}
+// .pin:hover p {
+//   opacity: 1;
+//   transition: opacity .3s;
+//   -webkit-transition: opacity .3s;
+//   -moz-transition: opacity .3s;
+// }
 
 
 .pin .image {

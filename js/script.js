@@ -13,6 +13,15 @@ var preload = function(src, callback) {
 
 $(document).ready(function(){
 
+  $('.pin').hover(function(e) {
+    var id = $(this).data('id');
+    $('#'+id).addClass('active');
+  });
+  $('.pin').mouseleave(function(e) {
+    var id = $(this).data('id');
+    $('#'+id).removeClass('active');
+  });
+
   $('#side-menu').slicknav({
     label: '',
     prependTo: '#home-link-mobile'
@@ -53,6 +62,8 @@ function load_background(background) {
     }
   }
 }
+
+
 
 // function pushToList(id) {
 //   $('#'+id).imagesLoaded(function(){

@@ -6,13 +6,13 @@ layout: default
   <div id="coverpage">
     <div id="columns">
       {% for img in page.images %}
-        <div class='pin'>
+        <div class='pin' data-id={{img.id}}>
           <a href={{img.link}}>
             <div class='image'>
               <img src={{img.url}} />
             </div>
           </a>
-          <a class='img-caption' href={{img.link}}><p>{{img.title}}</p></a>
+          <!-- <a class='img-caption' href={{img.link}}><p>{{img.title}}</p></a> -->
         </div>
       {% endfor %}
     </div>
