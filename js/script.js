@@ -21,6 +21,15 @@ $(document).ready(function(){
     var id = $(this).data('id');
     $('#'+id).removeClass('active');
   });
+  $('.li-side a').hover(function(e) {
+    var id = $(this).parent('.li-side').attr('id');
+    $('[data-id='+id+']').addClass('hovered');
+
+  });
+  $('.li-side a').mouseleave(function(e) {
+    var id = $(this).parent('.li-side').attr('id');
+    $('[data-id='+id+']').removeClass('hovered');
+  });
 
   $('#side-menu').slicknav({
     label: '',
