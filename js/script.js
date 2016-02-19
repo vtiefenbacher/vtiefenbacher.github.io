@@ -46,6 +46,27 @@ $(document).ready(function(){
   //   console.log('s empty');
   // }
   load_background($('body').data('background'));
+
+  //***** audio ****
+
+  $('.play-button').click(function(){
+    $('.button-animate').removeClass('button-animate');
+    $(this).addClass('button-animate');
+    $(this).parents().prev('audio').get(0).play();
+  })
+  $('.pause-button').click(function(){
+    if (!$(this).parents().prev('audio').get(0).paused){
+      $('.button-animate').removeClass('button-animate');
+      $(this).addClass('button-animate');
+      $(this).parents().prev('audio').get(0).pause();
+    }
+  })
+  $('.stop-button').click(function(){
+    $('.button-animate').removeClass('button-animate');
+    $(this).parents().prev('audio').get(0).pause();
+    $(this).parents().prev('audio').get(0).currentTime = 0;
+  })
+
 });
 
 

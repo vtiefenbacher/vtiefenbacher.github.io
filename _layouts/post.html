@@ -26,9 +26,17 @@ layout: default
     </div>
   {% endfor %}
   {% for track in page.audio %}
-    <p>{{track.title}}</p>
-    <audio controls>
-      <source src={{track.url}} type="audio/mpeg">
-    </audio>
+    <div class='audio-player'>
+
+      <audio>
+        <source src={{track.url}} type="audio/mpeg">
+      </audio>
+      <ul class='player-icons'>
+        <li class='audio-button play-button'></li>
+        <li class='audio-button pause-button'></li>
+        <li class='audio-button stop-button'></li>
+        <li class='track-title'><span>{{track.title}}<span></li>
+      </div>
+    </div>
   {% endfor %}
 </article>
