@@ -31,16 +31,16 @@
 }
 
 .pin.loaded {
-  opacity: .7;
+  opacity: 1;
   transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
 }
 .pin.loaded:hover {
-	opacity: 1;
+	opacity: .7;
 }
 .pin.hovered {
-	opacity: 1;
+	opacity: .7;
 }
 // .img-caption p {
 //   text-align: center;
