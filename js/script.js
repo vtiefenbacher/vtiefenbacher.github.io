@@ -15,19 +15,23 @@ $(document).ready(function(){
 
   $('.pin').hover(function(e) {
     var id = $(this).data('id');
-    $('#'+id).addClass('active');
+    $('#$li_'+id).addClass('active');
   });
   $('.pin').mouseleave(function(e) {
     var id = $(this).data('id');
-    $('#'+id).removeClass('active');
+    $('#$li_'+id).removeClass('active');
   });
   $('.li-side a').hover(function(e) {
     var id = $(this).parent('.li-side').attr('id');
+    console.log(id);
+    id = id.replace('$li_', '');
+    console.log(id);
     $('[data-id='+id+']').addClass('hovered');
 
   });
   $('.li-side a').mouseleave(function(e) {
     var id = $(this).parent('.li-side').attr('id');
+    id = id.replace('$li_', '');
     $('[data-id='+id+']').removeClass('hovered');
   });
 
