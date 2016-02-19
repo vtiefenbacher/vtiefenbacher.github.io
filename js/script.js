@@ -15,23 +15,23 @@ $(document).ready(function(){
 
   $('.pin').hover(function(e) {
     var id = $(this).data('id');
-    $('#$li_'+id).addClass('active');
+    $('#_menuitem_'+id).addClass('active');
   });
   $('.pin').mouseleave(function(e) {
     var id = $(this).data('id');
-    $('#$li_'+id).removeClass('active');
+    $('#_menuitem_'+id).removeClass('active');
   });
   $('.li-side a').hover(function(e) {
     var id = $(this).parent('.li-side').attr('id');
     console.log(id);
-    id = id.replace('$li_', '');
+    id = id.replace('_menuitem_', '');
     console.log(id);
     $('[data-id='+id+']').addClass('hovered');
 
   });
   $('.li-side a').mouseleave(function(e) {
     var id = $(this).parent('.li-side').attr('id');
-    id = id.replace('$li_', '');
+    id = id.replace('_menuitem_', '');
     $('[data-id='+id+']').removeClass('hovered');
   });
 

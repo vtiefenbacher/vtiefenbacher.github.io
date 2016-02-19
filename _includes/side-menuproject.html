@@ -14,7 +14,7 @@
         <ul class='submenu'>
           {% for post in site.categories['project'] %}
 
-            <li {% if post.backimage %}data-back={{post.backimage}} {% endif %} id='$li_{{post.id}}' data-id={{post.id}} data-url={{post.url}} {% if page.title == post.title %}class='li-side active'{% else %}class='li-side'{% endif %}>
+            <li {% if post.backimage %}data-back={{post.backimage}} {% endif %} id='_menuitem_{{post.id}}' data-id={{post.id}} data-url={{post.url}} {% if page.title == post.title %}class='li-side active'{% else %}class='li-side'{% endif %}>
               <a href={{post.url}}>{{post.title}}</a>
             </li>
           {% endfor %}
