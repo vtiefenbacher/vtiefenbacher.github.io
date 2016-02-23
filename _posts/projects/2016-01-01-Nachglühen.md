@@ -1,22 +1,22 @@
 ---
 layout: post
 id:     Nachgluehen
-title:  Nachgluehen
+title:  Nachglühen
 date:   2016-01-01 14:18:12 +0100
 categories: project
-permalink: /projects/Nachgluehen
+permalink: /projects/Nachglühen
 backimage:
 images:
 
-  - url: /assets/images/projects/Nachgluehen/Nachgluehen3-homepage.jpg
+  - url: /assets/images/projects/Nachgluehen/nachgluehen3.jpg
     alt: Nachgluehen img1
     title: Installation view from outside, wooden cube 4m x 3,5m x 2,3m, univesity of applied arts, june 2013
 
-  - url: /assets/images/projects/Nachgluehen/Nachgluehen-homepage1.jpg
+  - url: /assets/images/projects/Nachgluehen/nachgluehen2.jpg
     alt: Nachgluehen img2
     title: Performance, University of applied arts, june 2013
 
-  - url: /assets/images/projects/Nachgluehen/Nachgluehen2-homepage.jpg
+  - url: /assets/images/projects/Nachgluehen/nachgluehen.jpg
     alt: Nachgluehen img3
     title: Installation view, after the performance, university of applied arts, june 2013
 ---
