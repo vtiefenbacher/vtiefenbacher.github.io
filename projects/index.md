@@ -29,9 +29,10 @@ images:
     id: stadtwildnis
 
   - url: /assets/images/projects/home/Projekte_Nachgluehen_thumb.jpg
-    alt: Nachgluehen
+    alt: Nachglühen
     title: Nachglühen
     link: /projects/Nachglühen
+    id: Nachglühen
 
   - url: /assets/images/projects/home/Projekte_skype_thumb.jpg
     alt: stadtwildnis img6
