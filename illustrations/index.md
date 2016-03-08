@@ -6,7 +6,7 @@ images:
 
   - url: /assets/images/illustrations/home/illu-Progress_thumb.jpg
     alt: Progress image
-    link: /illustrations/Vice
+    link: /illustrations/progress
     title: Progress
     uid: "progress"
 
