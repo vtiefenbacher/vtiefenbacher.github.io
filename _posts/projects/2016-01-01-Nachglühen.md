@@ -1,10 +1,10 @@
 ---
 layout: post
-id:     Nachglühen
+id:     Nachgluehen
 title:  Nachglühen
 date:   2016-01-01 14:18:12 +0100
 categories: project
-permalink: /projects/Nachglühen
+permalink: /projects/Nachgluehen
 backimage:
 images:
 
@@ -16,11 +16,11 @@ images:
     alt: Nachgluehen img2
     title: Performance, University of applied arts, june 2013
 
-  - url: /assets/images/projects/Nachgluehen/Nachglühen4-klein.jpg
+  - url: /assets/images/projects/Nachgluehen/Nachgluehen4-klein.jpg
     alt: Nachgluehen img3
     title: Installation view, after the performance, university of applied arts, june 2013
 
-  - url: /assets/images/projects/Nachgluehen/Nachglühen6-klein.jpg
+  - url: /assets/images/projects/Nachgluehen/Nachgluehen6-klein.jpg
     alt: Nachgluehen img3
     title: Installation view, after the performance, university of applied arts, june 2013
 ---
