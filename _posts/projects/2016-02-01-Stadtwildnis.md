@@ -1,6 +1,6 @@
 ---
 layout: post
-id:     stadtwildnis
+uid:     "stadtwildnis"
 title:  Stadtwildnis
 date:   2016-02-03 14:18:12 +0100
 categories: project

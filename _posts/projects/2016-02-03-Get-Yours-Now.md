@@ -1,6 +1,6 @@
 ---
 layout: post
-id:     getyoursnow
+uid:     "getyoursnow"
 title:  Get Yours Now
 date:   2016-02-03 14:18:12 +0100
 categories: project
