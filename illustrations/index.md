@@ -18,9 +18,9 @@ images:
 
   - url: /assets/images/illustrations/home/illu_forum-Umweltbildung_thumb.jpg
     alt: mokant img1
-    link: /illustrations/Mokant
+    link: /illustrations/forumumweltbildung
     title: Forum Umweltbildung
-    uid: "umweltbildung"
+    uid: "forumumweltbildung"
 
   - url: /assets/images/illustrations/home/illu_Eigenproduktion_Grimassen_thumb.jpg
     alt: Grimassen image
@@ -29,16 +29,16 @@ images:
     uid: "grimassen"
 
   - url: /assets/images/illustrations/home/illu-Eigenproduktion_thumb.jpg
-    alt: mokant img1
-    link: /illustrations/Mokant
-    title: Mokant
-    uid: "mokant"
+    alt: allerlei img1
+    link: /illustrations/allerlei
+    title: Allerlei
+    uid: "allerlei"
 
   - url: /assets/images/illustrations/home/illu_Eigenproduktionen_Skizzen_thumb.jpg
-    alt: mokant img1
-    link: /illustrations/Mokant
-    title: Skizzen
-    uid: "skizzen"
+    alt: sketches img1
+    link: /illustrations/sketches
+    title: Sketches
+    uid: "sketches"
 
   - url: /assets/images/illustrations/home/illustration-mokant_thumb.jpg
     alt: mokant img1
