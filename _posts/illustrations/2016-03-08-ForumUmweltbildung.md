@@ -13,7 +13,7 @@ images:
     alt: umweltbildung img1
     title:
 
-  - url: /assets/images/illustrations/ForumUmweltbildung/überfluss-heute-final-klein.jpg
+  - url: /assets/images/illustrations/ForumUmweltbildung/ueberfluss-heute-final-klein.jpg
     alt: umweltbildung img2
     title:
 
