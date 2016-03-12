@@ -2,21 +2,38 @@
 layout: noscroll
 ---
 {% for post in site.categories['news'] %}
-  <article class="post">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <h1>{{post.title}}</h1>
-    {% if post.showdate == true %}
-      <span>{{post.date | date: '%B %d, %Y'}}</span>
-    {% endif %}
-    <div class="content">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">{{ post.title }}</h1>
+      {% if post.showdate == true %}
+        <span>{{ post.date | date: '%B %d, %Y' }}</span>
+      {% endif %}
+    </header>
+
+    <div class='post-text'>
       {{ post.content }}
     </div>
-    <br>
     {% for img in post.images %}
-      <div class="about-image">
+      <div class='gallery-img'>
         <img src={{img.url}} />
         <p>{{img.title}}</p>
       </div>
     {% endfor %}
+    {% for track in post.audio %}
+      <div class='audio-player'>
+
+        <audio>
+          <source src={{track.url}} type="audio/mpeg">
+        </audio>
+        <ul class='player-icons'>
+          <li class='audio-button play-button'></li>
+          <li class='audio-button pause-button'></li>
+          <li class='audio-button stop-button'></li>
+          <li class='track-title'><span>{{track.title}}<span></li>
+        </div>
+      </div>
+    {% endfor %}
   </article>
+
 {% endfor %}
