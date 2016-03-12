@@ -1,5 +1,4 @@
 (function letItScroll(){
-  console.log('afdafg');
   var lastScrollTop = 0,
       scrollDirection,
       scrollTop,
@@ -11,23 +10,19 @@
   $('.li-side').each(function(i, e){
     var id = $(e).data('project-id');
     project[id] = true;
-    console.log(e);
   });
 
 
   $('.project-container').imagesLoaded(function(){
     if ($('.project-container').height()<= $(window).height()){
       if ($('.li-side.now-last').is(':last-child')){
-        console.log('last');
       }
       else {
         var projectId = $('.li-side.now-last').next().data('project-id');
         loadmore(projectId);
-        console.log('hihi');
       }
     }
     positionList.push(Array(0, $('.project-container').height(), $('.project-container').attr('id')));
-    console.log(positionList);
     $('.photo-list').addClass('visible');
   });
 
@@ -60,11 +55,9 @@
     var st = $(window).scrollTop();
     if (st > lastScrollTop) {
       scrollDirection = 'down';
-      console.log('down');
     }
     else if (st < lastScrollTop) {
       scrollDirection = 'up';
-      console.log('up');
     }
     lastScrollTop = st;
   }
@@ -86,10 +79,7 @@
     getScrollDirection();
     makeLiActive(scrollDirection);
     if(scrollTop == $(document).height() - $(window).height()) {
-      console.log('endi');
       if ($('.li-side.now-last').is(':last-child')){
-        // $('#goToTop').fadeIn(300);
-        console.log('last');
       }
       else {
         var projectId = $('.li-side.now-last').next().data('project-id');
@@ -103,7 +93,6 @@
     }
     if(scrollTop == 0) {
       if ($('#li'+currentProject).hasClass('initial')){
-        console.log(currentProject, positionList);
       }
       else {
         // var projectId = $('.li-side.now-last').next().data('project-id');
