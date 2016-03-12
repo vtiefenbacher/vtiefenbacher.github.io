@@ -10,9 +10,10 @@ layout: noscroll
         <span>{{ post.date | date: '%B %d, %Y' }}</span>
       {% endif %}
     </header>
-
-    <div class='post-text'>
-      {{ post.content }}
+    <div class="post-content" itemprop="articleBody">
+        <div class='post-text'>
+          {{ post.content }}
+        </div>
     </div>
     {% for img in post.images %}
       <div class='gallery-img'>
