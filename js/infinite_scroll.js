@@ -11,6 +11,7 @@ $(document).ready(function(){
 
   function pushToList(id) {
     $('#'+id).imagesLoaded(function(){
+      console.log($('#'+id).height());
       positionList.push(Array(
         $('#'+id).offset().top,
         $('#'+id).offset().top + $('#'+id).height(),
@@ -61,7 +62,10 @@ $(document).ready(function(){
           var oldid = activeLink.next().data('id');
           var newid = $('#_menuitem_'+oldid).next().data('id');
           var url = $('#_menuitem_'+newid).data('url');
-
+          // if (newid!=undefined){
+          console.log(newid, url);
+          callback(true, url, newid);
+          // }
         }
       }
       else {
@@ -73,21 +77,24 @@ $(document).ready(function(){
   }
 
   function loadmore(url, direction, title) {
-    $.get(url, function(data){
-      var html = $.parseHTML(data);
-      var newHTML = $(html).find( '.page-content' ).html();
-      // makeLiActive(url, direction);
-      if (direction == 'down') {
-        $('.page-content').append(newHTML);
+    if (lastchild!=true){
+      $.get(url, function(data){
+        var html = $.parseHTML(data);
+        var newHTML = $(html).find( '.page-content' ).html();
+        // makeLiActive(url, direction);
+        if (direction == 'down') {
+          $('.page-content').append(newHTML);
 
-        pushToList(title);
-        checkifshort(title, function(short, newurl, linkid){
-          if (short==true) {
-            loadmore(newurl, 'down', linkid);
-          }
-        })
-      }
-    })
+          pushToList(title);
+          checkifshort(title, function(short, newurl, linkid){
+            if (short==true) {
+              console.log('loadin');
+              loadmore(newurl, 'down', linkid);
+            }
+          })
+        }
+      })
+    }
   }
 
   $('#right-container').imagesLoaded(function(){
@@ -120,7 +127,7 @@ $(document).ready(function(){
     getScrollDirection();
     makeLiActive(scrollDirection);
     if(scrollTop == $(document).height() - $(window).height() ) {
-      if (activeLink.next().data('url')!=undefined && lastchild!=true) {
+      if (activeLink.next().data('url')!=undefined && lastchild != true) {
         var url = activeLink.next().data('url');
         loadmore(url, scrollDirection, activeLink.next().data('id'));
       }
