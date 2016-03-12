@@ -35,10 +35,13 @@ $(document).ready(function(){
     $('[data-id='+id+']').removeClass('hovered');
   });
 
-  $('#side-menu').slicknav({
-    label: '',
-    prependTo: '#home-link-mobile'
-  });
+  if (!$('#content-container').hasClass('mobile')){
+    console.log('duma');
+    $('#side-menu').slicknav({
+      label: '',
+      prependTo: '#home-link-mobile'
+    });
+  }
   $('.pin img').load(function() {}).each(function(i, e){
     $(e).closest('.pin').addClass('loaded');
   })
@@ -73,7 +76,8 @@ $(document).ready(function(){
 
 function load_background(background) {
   $("body").removeClass("hasloaded");
-  if ($('body').width() > 920) {
+  if ($('body').width() > 920 || $('body').data('mobileback')=='1') {
+    console.log($('body').data('mobileback'));
     if (background != '' && background != undefined){
       // $('body').append('<div id="fakeBack"></div>');
       // $('#fakeBack').css('background','#fff url('+oldBackground+') no-repeat top center fixed')

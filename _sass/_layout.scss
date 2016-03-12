@@ -69,6 +69,10 @@ a {
   display: none;
 }
 
+.mobile-home {
+  display: none;
+}
+
 #title-header {
   font-size: 2em;
   margin: 0;
@@ -294,6 +298,7 @@ a {
 .mc-field-group input {
   font-size: 1.1em;
   padding: .4em .6em;
+  margin-top: .2em;
 }
 #subscribe-img {
   margin: 1em 0;
@@ -425,6 +430,18 @@ a {
   #a-home a {
     font-size: 26px;
   }
+  .mobile-home {
+    display: block;
+  }
+  .mobile-home #side-menu {
+    margin: 4em auto;
+    padding: 1em 2em;
+    width: 50%;
+    background: #fff;
+    #menu-list {
+      margin: 0;
+    }
+  }
 
 	.slicknav_menu {
     position: absolute;
@@ -500,6 +517,16 @@ a {
   }
   .about-content {
     margin: 150px 0;
+  }
+
+  .contact-content #mailto img {
+    display: block;
+    margin: 0 auto;
+  }
+  .contact-content #mailto span {
+    display: block;
+    font-size: 1.2em;
+    vertical-align: middle;
   }
 }
 @media screen and (max-width: 440px) {

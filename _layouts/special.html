@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  {% include headnoscroll.html %}
 
-  <body data-background={{page.backimage}}>
+  <body data-background={{page.backimage}} data-mobileback=1>
     <div id='fakeBack'></div>
-    <div id='content-container'>
-      {% include side-menu{{page.categories}}.html %}
+    <div id='content-container' class='mobile'>
+      {% include side-menu.html %}
       <div id='home-link-mobile'>
         <div id='a-home'><a href='/'>VALERIE TIEFENBACHER</a></div>
       </div>
-      
+      <div id='right-container' class='mobile-home'>
+        <div id='side-menu'>
+          <ul id='menu-list'>
+            <li {% if page.title == 'news' %}class='menu-item active'{% else %}class='menu-item'{% endif %}class='menu-item'><a class='pjax' href='/news'>News</a></li>
+            <li class='menu-item'>
+              <a class='pjax' href='/projects'>Projects</a>
+
+            </li>
+
+            <li class='menu-item'>
+              <a class='pjax' href='/illustrations'>Illustrations</a>
+
+            </li>
+            <li {% if page.title == 'about' %}class='menu-item active'{% else %}class='menu-item'{% endif %} ><a class='pjax' href='/about'>About</a></li>
+            <li {% if page.title == 'contact' %}class='menu-item active'{% else %}class='menu-item'{% endif %}><a class='pjax' href='/contact'>Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
 
