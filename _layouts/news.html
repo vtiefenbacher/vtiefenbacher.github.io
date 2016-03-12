@@ -1,0 +1,22 @@
+---
+layout: noscroll
+---
+{% for post in site.categories['news'] %}
+  <article class="post">
+
+    <h1>{{post.title}}</h1>
+    {% if post.showdate == true %}
+      <span>{{post.date | date: '%B %d, %Y'}}</span>
+    {% endif %}
+    <div class="content">
+      {{ post.content }}
+    </div>
+    <br>
+    {% for img in post.images %}
+      <div class="about-image">
+        <img src={{img.url}} />
+        <p>{{img.title}}</p>
+      </div>
+    {% endfor %}
+  </article>
+{% endfor %}

@@ -1,13 +1,21 @@
 
 //////////////// TODOs + FIXMEs ////////////////
 
-TODO: audio!
+TODO: News site: posts untereinander
+FIXME: kurze projekte (mokant) laden doppelt beim runterscrollen
+TODO: Mobile: Homepage mit menupunkten + Background image
+
 
 
 //////////////// DONE //////////////////
+TODO: audio!
 
 FIXME: last project if 2 projects on initial load (illustrations > mokant + vice)
 
 FIXME: expandable text for multiple projects after scrolling
 
 TODO: project home - bilder links auf menu
+
+FIXME: infinite scroll nur bei projects und illustrations!
+TODO: contact page: mailchimp...
+  
