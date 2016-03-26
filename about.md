@@ -2,12 +2,10 @@
 layout: about
 title: about
 permalink: /about/
+backimage: /assets/images/background/birkenwald1.jpg
 images:
 
-  - url: /assets/images/illustrations/vice/Illustration-vice-1.jpg
-    alt: vice img1
+  - url: /assets/images/about4.jpg
+    alt: about.img
     title:
 ---
-
-Valerie Tiefenbacher lebt und arbeitet in Wien.  
-Sie ist freischaffende Illustratorin und bildende Künstlerin
