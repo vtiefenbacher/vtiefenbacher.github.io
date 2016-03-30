@@ -12,7 +12,7 @@ images:
 
   - url: /assets/images/projects/stadwildnis/schild-klein.jpg
     alt: stadtwildnis img4
-    title:
+    title: Sign, marking the entrance to the actual "Stadtwildnis" area in Vienna.
 
   - url: /assets/images/projects/stadwildnis/Art-Stadtwildnis-bild1.jpg
     alt: stadtwildnis img1
@@ -28,7 +28,7 @@ images:
 
   - url: /assets/images/projects/stadwildnis/stadtwildnisskizzen.jpg
     alt: stadtwildnis img4
-    title:
+    title: Various drawings of found places and objects, ball pen on paper, 2014
 
 
 ---
