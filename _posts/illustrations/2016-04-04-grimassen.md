@@ -1,7 +1,7 @@
 ---
 layout: post
 uid:     "grimassen"
-title:  Grimassen
+title:  Grimassenschneiderin
 date:   2016-02-03 14:18:12 +0100
 categories: illustration
 permalink: /illustrations/grimassen

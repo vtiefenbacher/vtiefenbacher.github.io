@@ -37,9 +37,9 @@ Geschichten zu Nachhaltigkeit und Resilienz.
 
  Redaktion und Interviews: Anna Maria Haas, Katharina Kerschhofer
 
- Herausgeber und Medieninhaber: Umweltdachverband GmbH, www.umweltdachverband.at
+ Herausgeber und Medieninhaber: Umweltdachverband GmbH, [www.umweltdachverband.at](http://www.umweltdachverband.at){:target="_blank"}
 
- Verleger und Bezugsadresse: FORUM Umweltbildung im Umweltdachverband, www.umweltbildung.at
+ Verleger und Bezugsadresse: FORUM Umweltbildung im Umweltdachverband, [www.umweltbildung.at](http://www.umweltbildung.at/nachrichten/langtexte/neuerscheinung-von-schweinen-und-brillanten.html){:target="_blank"}
 
  ISBN 978-3-900717-83-4
 

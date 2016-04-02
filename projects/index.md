@@ -16,7 +16,7 @@ images:
     link: /projects/Stadtwildnis
     uid: "stadtwildnis"
 
-  - url: /assets/images/projects/home/zeitungsfiguren-thump.jpg
+  - url: /assets/images/projects/home/newsfig-thump.jpg
     alt: newspaperfigures img3
     title: Newspaper figures
     link: /projects/newspaperfigures
