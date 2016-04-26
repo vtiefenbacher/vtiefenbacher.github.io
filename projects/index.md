@@ -28,12 +28,6 @@ images:
     link: /projects/absence
     uid: "absence"
 
-  - url: /assets/images/projects/home/Projekte_Malerei_thumb.jpg
-    alt: stadtwildnis img5
-    title: Malerei
-    link: /projects/Stadtwildnis
-    uid: "stadtwildnis"
-
   - url: /assets/images/projects/home/Projekte_Nachgluehen_thumb.jpg
     alt: Nachgluehen
     title: Nachglühen

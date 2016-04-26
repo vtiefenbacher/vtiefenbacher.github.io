@@ -24,8 +24,8 @@ images:
 
   - url: /assets/images/illustrations/home/illu_Eigenproduktion_Grimassen_thumb.jpg
     alt: Grimassen image
-    link: /illustrations/Mokant
-    title: Grimassen
+    link: /illustrations/grimassen
+    title: Grimassenschneiderin
     uid: "grimassen"
 
   - url: /assets/images/illustrations/home/illu-Eigenproduktion_thumb.jpg
