@@ -6,21 +6,19 @@ backimage: /assets/images/background/birkenwald1.jpg
 images:
 
 ---
-*1988 in Vienna, lives and works in Vienna
-
-
-
-
-
+born 1988 in Vienna, lives and works in Vienna
 
 2007-2013 Studies Painting at the university of applied Arts, Vienna (Univ. Prof. Johanna Kandl)
 
 2008 merit scholarship, 2013 Diploma work.
 
-2009-2010 Erasmus scholarship in Vilnius, Lithuania at the Vilnius Dailes Academija
+2009-2010 Erasmus scholarship in *Vilnius*, **Lithuania** at the Vilnius Dailes Academija
 
 
-
+<br>
+<br>
+<br>
+<br>
 
 Clients Illustration:
 
@@ -41,12 +39,7 @@ Clients Illustration:
 
 [Huhnmensch](https://huhnmensch.bandcamp.com/){:target="_blank"}
 
-
-
-
 Exhibitions:  
-
-
 
 2014
 „Zwi(t)sche(r)n“ Group show at Offspace „school“, Vienna (AT)
