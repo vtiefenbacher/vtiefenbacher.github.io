@@ -1,12 +1,14 @@
 
 //////////////// TODOs + FIXMEs ////////////////
-
-FIXME: kurze projekte (mokant) laden doppelt beim runterscrollen
-TODO: Mobile: Homepage mit menupunkten + Background image
-
+FIXME: infinitscroll im FIREFOX
+TODO: change address bar when scrolling
+FIXME: backgound change
 
 
 //////////////// DONE //////////////////
+FIXME: kurze projekte (mokant) laden doppelt beim runterscrollen
+TODO: Mobile: Homepage mit menupunkten + Background image
+
 TODO: audio!
 
 FIXME: last project if 2 projects on initial load (illustrations > mokant + vice)
