@@ -1,7 +1,7 @@
 ---
 layout: post
 uid:     "grimassen"
-title:  Grimassen
+title:  Grimassenschneiderin
 date:   2016-02-03 14:18:12 +0100
 categories: illustration
 permalink: /illustrations/grimassen
@@ -29,11 +29,11 @@ images:
     alt: grimassen img5
     title:
 
-  - url: /assets/images/illustrations/grimassen/goettin-sarah.jpg
+  - url: /assets/images/illustrations/grimassen/goettin-vally.jpg
     alt: grimassen img6
     title:
 
-  - url: /assets/images/illustrations/grimassen/goettin-vally.jpg
+  - url: /assets/images/illustrations/grimassen/goettin-sarah.jpg
     alt: grimassen img7
     title:
 

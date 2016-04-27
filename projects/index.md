@@ -16,23 +16,17 @@ images:
     link: /projects/Stadtwildnis
     uid: "stadtwildnis"
 
-  - url: /assets/images/projects/home/waterpark-klein.jpg
-    alt: drawing img3
-    title: Drawings
-    link: /projects/Drawings
-    uid: "Drawings"
+  - url: /assets/images/projects/home/newsfig-thump.jpg
+    alt: newspaperfigures img3
+    title: Newspaper figures
+    link: /projects/newspaperfigures
+    uid: "newspaperfigures"
 
   - url: /assets/images/projects/home/Projekte_Abwesenheit_thumb.jpg
-    alt: stadtwildnis img4
-    title: Abwesenheit
-    link: /projects/Stadtwildnis
-    uid: "abwesenheit"
-
-  - url: /assets/images/projects/home/Projekte_Malerei_thumb.jpg
-    alt: stadtwildnis img5
-    title: Malerei
-    link: /projects/Stadtwildnis
-    uid: "stadtwildnis"
+    alt: absence img4
+    title: Absence
+    link: /projects/absence
+    uid: "absence"
 
   - url: /assets/images/projects/home/Projekte_Nachgluehen_thumb.jpg
     alt: Nachgluehen

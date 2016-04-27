@@ -2,15 +2,17 @@
 layout: post
 uid:     "stadtwildnis"
 title:  Stadtwildnis
-date:   2016-02-03 14:18:12 +0100
+date:   2016-03-06 14:18:12 +0100
 categories: project
 permalink: /projects/Stadtwildnis
 backimage: /assets/images/projects/stadwildnis/Art-Stadtwildnis-bild3.jpg
-audio:
-  - url: /assets/audio/Audio-Zeichnung-kurz.mp3
-    title: Audio Zeichnung
+
 
 images:
+
+  - url: /assets/images/projects/stadwildnis/schild-klein.jpg
+    alt: stadtwildnis img4
+    title: Sign, marking the entrance to the actual "Stadtwildnis" area in Vienna.
 
   - url: /assets/images/projects/stadwildnis/Art-Stadtwildnis-bild1.jpg
     alt: stadtwildnis img1
@@ -24,21 +26,11 @@ images:
     alt: stadtwildnis img3
     title: Found objects in display cases, 2014
 
-  - url: /assets/images/projects/stadwildnis/Art-Stadtwildnis-bild4.jpg
+  - url: /assets/images/projects/stadwildnis/stadtwildnisskizzen.jpg
     alt: stadtwildnis img4
-    title:
+    title: Various drawings of found places and objects, ball pen on paper, 2014
 
-  - url: /assets/images/projects/stadwildnis/Art-Stadtwildnis-bild5.jpg
-    alt: stadtwildnis img5
-    title:
 
-  - url: /assets/images/projects/stadwildnis/Art-Stadtwildnis-bild6.jpg
-    alt: stadtwildnis img6
-    title:
-
-  - url: /assets/images/projects/stadwildnis/Art-Stadtwildnis-bild7.jpg
-    alt: stadtwildnis img7
-    title: Ballpen drawings on paper, 2014
 ---
 EXPEDITIONSNOTIZEN
 

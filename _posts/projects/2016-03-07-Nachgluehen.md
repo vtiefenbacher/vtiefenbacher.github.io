@@ -2,7 +2,7 @@
 layout: post
 uid:     "Nachgluehen"
 title:  Nachglühen
-date:   2016-01-01 14:18:12 +0100
+date:   2016-03-07 14:18:12 +0100
 categories: project
 permalink: /projects/Nachgluehen
 backimage:
@@ -14,7 +14,7 @@ images:
 
   - url: /assets/images/projects/Nachgluehen/nachgluehen2.jpg
     alt: Nachgluehen img2
-    title: Performance, University of applied arts, june 2013
+    title: The performance, for an hour about 40 people stayed in the cube together, University of applied arts, june 2013
 
   - url: /assets/images/projects/Nachgluehen/Nachgluehen4-klein.jpg
     alt: Nachgluehen img3
