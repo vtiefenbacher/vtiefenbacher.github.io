@@ -31,8 +31,13 @@ $(document).ready(function(){
     $('.page-content').append(newDiv)
   })
 
+  Waypoint.offsetAliases['200-past-bottom'] = function() {
+    return this.context.innerHeight() - this.adapter.outerHeight() + 200
+  }
+
   load_waypoint(currentProject);
   active_waypoint(currentProject, currentId);
+
 });
 
 function load_waypoint(cProject) {
@@ -46,11 +51,12 @@ function load_waypoint(cProject) {
     }
     this.destroy();
   }, {
-    offset: 'bottom-in-view'
+    offset: '200-past-bottom'
   })
 }
 
 function active_waypoint(cProject, id) {
+
   var waypoint = cProject.waypoint(function(direction) {
     if (direction=='down'){
       $('.li-side.active').removeClass('active');
