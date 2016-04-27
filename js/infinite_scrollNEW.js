@@ -70,6 +70,7 @@ function active_waypoint(cProject, id) {
     if (direction=='up'){
       $('.li-side.active').removeClass('active');
       $('#_menuitem_'+id).addClass('active');
+      load_background($('#_menuitem_'+id).data('back'));
     }
   }, {
     offset: 'bottom-in-view'
