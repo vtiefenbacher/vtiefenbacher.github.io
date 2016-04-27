@@ -5,7 +5,6 @@ title:  Von Schweinen und Brillanten
 date:   2016-02-03 14:18:12 +0100
 categories: illustration
 permalink: /illustrations/forumumweltbildung
-descriptionempty: true
 
 images:
 
