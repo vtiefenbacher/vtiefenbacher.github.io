@@ -114,16 +114,16 @@ function load_background(background) {
 //   });
 // }
 
-function updatePositionList(id) {
-  $.each(positionList, function(index, value) {
-
-    var obj = positionList[index][2];
-    console.log($('#' + obj).height());
-    positionList[index][0] = $('#' + obj).offset().top;
-    positionList[index][1] = $('#' + obj).offset().top + $('#' + obj).height();
-    console.log(positionList[index]);
-  })
-}
+// function updatePositionList(id) {
+//   $.each(positionList, function(index, value) {
+//
+//     var obj = positionList[index][2];
+//     console.log($('#' + obj).height());
+//     positionList[index][0] = $('#' + obj).offset().top;
+//     positionList[index][1] = $('#' + obj).offset().top + $('#' + obj).height();
+//     console.log(positionList[index]);
+//   })
+// }
 
 function expand_text(obj){
   var height;
