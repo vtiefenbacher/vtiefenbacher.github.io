@@ -40,9 +40,9 @@ Begonnen nur wegen der Absurdität des aufgestellten Schildes, erschloss sich ba
 Die Zeichnung als Mittel der Forschung wurde zum Stilmittel. Durch die Aneignung einer scheinbar wissenschaftlichen Arbeitsweise gelang es, den Fokus auf das Unscheinbare zu richten und die Schönheit und auch das schockierende Elemente des Banalen in den Mittelpunkt zu rücken.
 Es entstanden naturalistische Kugelschreiberzeichnungen auf Aquarellpapier. In Schaukästen sind Fundstücke aus der Wildnis zu sehen. Als Referenz zur musealen Münzensammlung liegen in weißen Samt gebetet, beleuchtete Müllstücke.
 
-***
+<br>
 
-Art installation, ballpoint pen on paper, found objects in display cases 2014
+
 
 At first glance there are no more unexplored parts of our planet. The time of big expeditions is over. What remains is taking a closer looking at the near, banal and everyday life. Invoking the expedition artists of an age before photography, this documentary of “Viennese urban wilderness” investigates an area of ground free from buildings which is surrounded by housing projects and tennis courts. Hidden between weeds stray cats have settled in structures built from debris, discarded Ikea furniture and letters to neighbours. Clothes, cans, bottles, make-up containers and faeces hint at the homeless.  
 The scientific drawing becomes a stylistic device. Through the appropriation of a seemingly scientific method the focus is drawn to the inconspicuous, in an attempt to capture the beauty and the shocking element of banality.  
