@@ -1,6 +1,6 @@
 var links = new Array;
 
-function load_content(id) {
+function load_content(id, waypoint) {
   var url = $('#'+id).data('pageurl');
 
   $.get(url, function(data){
@@ -14,7 +14,8 @@ function load_content(id) {
 
       currentProject = $('#'+id);
       // console.log(currentProject);
-      load_waypoint(currentProject, '200pastbottom');
+      waypoint.destroy();
+      load_waypoint(currentProject, '75%');
 
       active_waypoint(currentProject, id);
     });
@@ -36,9 +37,11 @@ $(document).ready(function(){
     $('.page-content').append(newDiv)
   })
 
-  Waypoint.offsetAliases['200pastbottom'] = function() {
-    return this.context.innerHeight() - this.adapter.outerHeight() + 200
-  }
+  // Waypoint.offsetAliases['200pastbottom'] = function() {
+  //   console.log(this.context.innerHeight() - this.adapter.outerHeight());
+  //   return this.context.innerHeight() - this.adapter.outerHeight() - 200;
+  //
+  // }
 
   load_waypoint(currentProject, 'bottom-in-view');
   active_waypoint(currentProject, currentId);
@@ -54,9 +57,8 @@ function load_waypoint(cProject, offset) {
 
     if(direction=='down'){
       console.log('TRIGGER: ' + nextId);
-      load_content(nextId);
+      load_content(nextId, this);
     }
-    // this.destroy();
   }, {
     offset: offset
   })
