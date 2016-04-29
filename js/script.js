@@ -76,30 +76,30 @@ $(document).ready(function(){
 
 
 function load_background(background) {
-  // $("body").removeClass("hasloaded");
-  // if ($('body').width() > 920 || $('body').data('mobileback')=='1') {
-  //   if (background != undefined){
-  //     // $('body').append('<div id="fakeBack"></div>');
-  //     // $('#fakeBack').css('background','#fff url('+oldBackground+') no-repeat top center fixed')
-  //     // console.log(background);
-  //     console.log(background);
-  //     preload(background, function() {
-  //
-  //       $("body").addClass("hasloaded");
-  //       $("body").css('background','#fff url('+background+') no-repeat top center fixed');
-  //       $("body").css('backgroundSize', 'cover');
-  //
-  //     });
-  //   }
-  //   else {
-  //     // console.log(background);
-  //     preload(background, function() {
-  //       $("body").addClass("hasloaded");
-  //       $("body").css('backgroundImage','none');
-  //       $("body").css('background-color', '#fff');
-  //     });
-  //   }
-  // }
+  $("body").removeClass("hasloaded");
+  if ($('body').width() > 920 || $('body').data('mobileback')=='1') {
+    if (background != undefined){
+      // $('body').append('<div id="fakeBack"></div>');
+      // $('#fakeBack').css('background','#fff url('+oldBackground+') no-repeat top center fixed')
+      // console.log(background);
+      console.log(background);
+      preload(background, function() {
+
+        $("body").addClass("hasloaded");
+        $("body").css('background','#fff url('+background+') no-repeat top center fixed');
+        $("body").css('backgroundSize', 'cover');
+
+      });
+    }
+    else {
+      // console.log(background);
+      preload(background, function() {
+        $("body").addClass("hasloaded");
+        $("body").css('backgroundImage','none');
+        $("body").css('background-color', '#fff');
+      });
+    }
+  }
 }
 
 
