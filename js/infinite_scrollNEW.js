@@ -4,18 +4,21 @@ function load_content(id) {
   var url = $('#'+id).data('pageurl');
 
   $.get(url, function(data){
-    console.log('triggered: ' + url);
+    // console.log('triggered: ' + url);
     var html = $.parseHTML(data);
     var newHTML = $(html).find( '.wrapper' ).html();
     // console.log(newHTML);
-    $('#'+id).append(newHTML).fadeIn();
-    links.shift();
-    console.log('newLinks: '+links);
+    $('#'+id).append(newHTML).fadeIn(200, function(){
+      links.shift();
+      // console.log('newLinks: '+links);
 
-    currentProject = $('#'+id);
-    console.log(currentProject);
-    load_waypoint(currentProject);
-    active_waypoint(currentProject, id);
+      currentProject = $('#'+id);
+      // console.log(currentProject);
+      load_waypoint(currentProject);
+
+      active_waypoint(currentProject, id);
+    });
+
   })
 }
 
@@ -47,15 +50,15 @@ function load_waypoint(cProject) {
   var waypoint = cProject.waypoint(function(direction) {
     // console.log(this.element.id + ' is here');
     nextId = links[0];
-    console.log(links);
     // console.log('next: '+nextId);
 
     if(direction=='down'){
+      console.log('TRIGGER: ' + nextId);
       load_content(nextId);
     }
     this.destroy();
   }, {
-    offset: '200pastbottom'
+    offset: 'bottom-in-view'
   })
 }
 
