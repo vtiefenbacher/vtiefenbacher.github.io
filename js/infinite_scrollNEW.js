@@ -32,7 +32,7 @@ $(document).ready(function(){
   $('#_menuitem_'+currentId).nextAll().each(function(i, e){
     // console.log(i, e);
     links.push($(e).data('id'));
-    newDiv = '<div class="wrapper" id='+ $(e).data('id') +' data-pageurl='+ $(e).data('url') +' style="display: none;">'
+    newDiv = '<div class="wrapper" id='+ $(e).data('id') +' data-pageurl='+ $(e).data('url') +' >'
     $('.page-content').append(newDiv)
   })
 
