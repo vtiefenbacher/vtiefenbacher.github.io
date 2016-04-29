@@ -6,8 +6,8 @@ backimage: /assets/images/background/qualletapete2.jpg
 images:
 
 ---
-**Valerie Tiefenbacher is a visual artist based in vienna.  
-Since 2014 her work is is focusing on Illustrations and drawings.**
+**Valerie Tiefenbacher is a visual artist based in vienna.**
+
 <br>
 <br>
 *1988* **born in Vienna.**
@@ -19,6 +19,8 @@ Since 2014 her work is is focusing on Illustrations and drawings.**
 *2009-2010* **Erasmus scholarship in Vilnius, Lithuania at the *Vilnius Dailes Academija*.**
 
 *2013* **Diploma work.**
+
+*2014* **Starts to work as an illustrator.**
 <br>
 <br>
 <br>

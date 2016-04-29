@@ -10,34 +10,36 @@ images:
     link: /projects/Get_Yours_Now
     uid: "getyoursnow"
 
+  - url: /assets/images/projects/Nachgluehen/Nachglühenlisa.jpg
+    alt: Nachgluehen
+    title: Nachglühen
+    link: /projects/Nachgluehen
+    uid: "Nachgluehen"
+
+  - url: /assets/images/projects/Absence/zeitunquer.jpg
+    alt: absence img4
+    title: Absence
+    link: /projects/absence
+    uid: "absence"
+
   - url: /assets/images/projects/home/Art-Stadtwildnis-bild3_thumb.jpg
     alt: stadtwildnis img3
     title: Stadtwildnis
     link: /projects/Stadtwildnis
     uid: "stadtwildnis"
 
-  - url: /assets/images/projects/home/newsfig-thump.jpg
+  - url: /assets/images/projects/Drawings/zeitungsfiguren2-klein2.jpg
     alt: newspaperfigures img3
     title: Newspaper figures
     link: /projects/newspaperfigures
     uid: "newspaperfigures"
-
-  - url: /assets/images/projects/home/Projekte_Abwesenheit_thumb.jpg
-    alt: absence img4
-    title: Absence
-    link: /projects/absence
-    uid: "absence"
-
-  - url: /assets/images/projects/home/Projekte_Nachgluehen_thumb.jpg
-    alt: Nachgluehen
-    title: Nachglühen
-    link: /projects/Nachgluehen
-    uid: "Nachgluehen"
 
   - url: /assets/images/projects/home/Projekte_skype_thumb.jpg
     alt: stadtwildnis img6
     title: Skype
     link: /projects/Skype
     uid: "skype"
+
+
 
 ---
