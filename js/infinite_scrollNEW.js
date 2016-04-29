@@ -43,7 +43,7 @@ $(document).ready(function(){
 });
 
 function load_waypoint(cProject) {
-  console.log('new waypoint');
+  console.log('new waypoint: ' cProject);
   var waypoint = cProject.waypoint(function(direction) {
     // console.log(this.element.id + ' is here');
     nextId = links[0];
