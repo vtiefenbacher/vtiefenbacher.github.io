@@ -10,7 +10,7 @@ images:
     link: /projects/Get_Yours_Now
     uid: "getyoursnow"
 
-  - url: /assets/images/projects/Nachgluehen/Nachglühenlisa.jpg
+  - url: /assets/images/projects/Nachgluehen/Nachgluehenlisa.jpg
     alt: Nachgluehen
     title: Nachglühen
     link: /projects/Nachgluehen
