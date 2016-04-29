@@ -2,14 +2,15 @@ var links = new Array;
 
 function load_content(id) {
   var url = $('#'+id).data('pageurl');
-  console.log('triggered');
+
   $.get(url, function(data){
+    console.log('triggered: ' + url);
     var html = $.parseHTML(data);
     var newHTML = $(html).find( '.wrapper' ).html();
     // console.log(newHTML);
     $('#'+id).append(newHTML).fadeIn();
     links.shift();
-    // console.log(links);
+    console.log('newLinks: '+links);
 
     currentProject = $('#'+id);
     console.log(currentProject);

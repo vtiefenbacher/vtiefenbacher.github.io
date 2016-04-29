@@ -12,7 +12,27 @@ var preload = function(src, callback) {
 };
 
 $(document).ready(function(){
+  //***** audio ****
 
+  $('.play-button').click(function(){
+    console.log('play');
+    $('.button-animate').removeClass('button-animate');
+    $(this).addClass('button-animate');
+    $(this).parents().prev('audio').get(0).play();
+  })
+  $('.pause-button').click(function(){
+    if (!$(this).parents().prev('audio').get(0).paused){
+      $('.button-animate').removeClass('button-animate');
+      $(this).addClass('button-animate');
+      $(this).parents().prev('audio').get(0).pause();
+    }
+  })
+  $('.stop-button').click(function(){
+    $('.button-animate').removeClass('button-animate');
+    $(this).parents().prev('audio').get(0).pause();
+    $(this).parents().prev('audio').get(0).currentTime = 0;
+  })
+  // ***** menu hover to highlight thumbnails *****
   $('.pin').hover(function(e) {
     var id = $(this).data('id');
     $('#_menuitem_'+id).addClass('active');
@@ -49,54 +69,37 @@ $(document).ready(function(){
   // }
   load_background($('body').data('background'));
 
-  //***** audio ****
 
-  $('.play-button').click(function(){
-    $('.button-animate').removeClass('button-animate');
-    $(this).addClass('button-animate');
-    $(this).parents().prev('audio').get(0).play();
-  })
-  $('.pause-button').click(function(){
-    if (!$(this).parents().prev('audio').get(0).paused){
-      $('.button-animate').removeClass('button-animate');
-      $(this).addClass('button-animate');
-      $(this).parents().prev('audio').get(0).pause();
-    }
-  })
-  $('.stop-button').click(function(){
-    $('.button-animate').removeClass('button-animate');
-    $(this).parents().prev('audio').get(0).pause();
-    $(this).parents().prev('audio').get(0).currentTime = 0;
-  })
 
 });
 
 
 
 function load_background(background) {
-  $("body").removeClass("hasloaded");
-  if ($('body').width() > 920 || $('body').data('mobileback')=='1') {
-    if (background != '' && background != undefined){
-      // $('body').append('<div id="fakeBack"></div>');
-      // $('#fakeBack').css('background','#fff url('+oldBackground+') no-repeat top center fixed')
-      // console.log(background);
-      preload(background, function() {
-
-        $("body").addClass("hasloaded");
-        $("body").css('background','#fff url('+background+') no-repeat top center fixed');
-        $("body").css('backgroundSize', 'cover');
-
-      });
-    }
-    else {
-      // console.log(background);
-      preload(background, function() {
-        $("body").addClass("hasloaded");
-        $("body").css('backgroundImage','none');
-        $("body").css('background-color', '#fff');
-      });
-    }
-  }
+  // $("body").removeClass("hasloaded");
+  // if ($('body').width() > 920 || $('body').data('mobileback')=='1') {
+  //   if (background != undefined){
+  //     // $('body').append('<div id="fakeBack"></div>');
+  //     // $('#fakeBack').css('background','#fff url('+oldBackground+') no-repeat top center fixed')
+  //     // console.log(background);
+  //     console.log(background);
+  //     preload(background, function() {
+  //
+  //       $("body").addClass("hasloaded");
+  //       $("body").css('background','#fff url('+background+') no-repeat top center fixed');
+  //       $("body").css('backgroundSize', 'cover');
+  //
+  //     });
+  //   }
+  //   else {
+  //     // console.log(background);
+  //     preload(background, function() {
+  //       $("body").addClass("hasloaded");
+  //       $("body").css('backgroundImage','none');
+  //       $("body").css('background-color', '#fff');
+  //     });
+  //   }
+  // }
 }
 
 
