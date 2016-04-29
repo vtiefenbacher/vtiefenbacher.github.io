@@ -45,6 +45,7 @@ function load_waypoint(cProject) {
   var waypoint = cProject.waypoint(function(direction) {
     // console.log(this.element.id + ' is here');
     nextId = links[0];
+    console.log(links);
     // console.log('next: '+nextId);
 
     if(direction=='down'){
