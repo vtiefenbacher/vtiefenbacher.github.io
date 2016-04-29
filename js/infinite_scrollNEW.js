@@ -2,6 +2,7 @@ var links = new Array;
 
 function load_content(id) {
   var url = $('#'+id).data('pageurl');
+  console.log('triggered');
   $.get(url, function(data){
     var html = $.parseHTML(data);
     var newHTML = $(html).find( '.wrapper' ).html();
