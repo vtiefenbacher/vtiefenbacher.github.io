@@ -56,7 +56,7 @@ function load_waypoint(cProject) {
       console.log('TRIGGER: ' + nextId);
       load_content(nextId);
     }
-    this.destroy();
+    // this.destroy();
   }, {
     offset: 'bottom-in-view'
   })
