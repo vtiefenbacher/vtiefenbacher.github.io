@@ -33,7 +33,7 @@ $(document).ready(function(){
     $('.page-content').append(newDiv)
   })
 
-  Waypoint.offsetAliases['200-past-bottom'] = function() {
+  Waypoint.offsetAliases['200pastbottom'] = function() {
     return this.context.innerHeight() - this.adapter.outerHeight() + 200
   }
 
@@ -43,7 +43,7 @@ $(document).ready(function(){
 });
 
 function load_waypoint(cProject) {
-  console.log('new waypoint: ' cProject);
+  console.log('new waypoint: ' + cProject);
   var waypoint = cProject.waypoint(function(direction) {
     // console.log(this.element.id + ' is here');
     nextId = links[0];
@@ -55,7 +55,7 @@ function load_waypoint(cProject) {
     }
     this.destroy();
   }, {
-    offset: '200-past-bottom'
+    offset: '200pastbottom'
   })
 }
 
