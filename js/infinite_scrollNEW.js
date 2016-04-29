@@ -14,7 +14,7 @@ function load_content(id) {
 
       currentProject = $('#'+id);
       // console.log(currentProject);
-      load_waypoint(currentProject);
+      load_waypoint(currentProject, '10%');
 
       active_waypoint(currentProject, id);
     });
@@ -40,12 +40,12 @@ $(document).ready(function(){
     return this.context.innerHeight() - this.adapter.outerHeight() + 200
   }
 
-  load_waypoint(currentProject);
+  load_waypoint(currentProject, 'bottom-in-view');
   active_waypoint(currentProject, currentId);
 
 });
 
-function load_waypoint(cProject) {
+function load_waypoint(cProject, offset) {
   console.log('new waypoint: ' + cProject);
   var waypoint = cProject.waypoint(function(direction) {
     // console.log(this.element.id + ' is here');
@@ -58,7 +58,7 @@ function load_waypoint(cProject) {
     }
     // this.destroy();
   }, {
-    offset: 'bottom-in-view'
+    offset: offset
   })
 }
 
