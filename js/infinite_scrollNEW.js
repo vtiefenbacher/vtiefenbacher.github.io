@@ -14,7 +14,7 @@ function load_content(id) {
 
       currentProject = $('#'+id);
       // console.log(currentProject);
-      load_waypoint(currentProject, '10%');
+      load_waypoint(currentProject, '200pastbottom');
 
       active_waypoint(currentProject, id);
     });
