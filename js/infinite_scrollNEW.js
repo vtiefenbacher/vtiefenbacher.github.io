@@ -2,7 +2,7 @@ var links = new Array;
 
 function load_content(id, waypoint) {
   var url = $('#'+id).data('pageurl');
-
+  // console.log(url);
   $.get(url, function(data){
     // console.log('triggered: ' + url);
     var html = $.parseHTML(data);
@@ -33,7 +33,7 @@ $(document).ready(function(){
   $('#_menuitem_'+currentId).nextAll().each(function(i, e){
     // console.log(i, e);
     links.push($(e).data('id'));
-    newDiv = '<div class="wrapper" id='+ $(e).data('id') +' data-pageurl='+ $(e).data('url') +' >'
+    newDiv = '<div class="wrapper" id='+ $(e).data('id') +' data-pageurl='+ $(e).data('url') +' data-pagetitle='+ $(e).data('id') + '>'
     $('.page-content').append(newDiv)
   })
 
@@ -67,7 +67,10 @@ function load_waypoint(cProject, offset) {
 function active_waypoint(cProject, id) {
 
   var waypoint = cProject.waypoint(function(direction) {
+
     if (direction=='down'){
+      // window.history.pushState(null, cProject.data('pagetitle'), cProject.data('pageurl'));
+      // console.log(cProject.data('pagetitle'));
       $('.li-side.active').removeClass('active');
       $('#_menuitem_'+id).addClass('active');
       load_background($('#_menuitem_'+id).data('back'));
@@ -77,6 +80,8 @@ function active_waypoint(cProject, id) {
   });
   var waypoint = cProject.waypoint(function(direction) {
     if (direction=='up'){
+      // window.history.pushState(null, cProject.data('pagetitle'), cProject.data('pageurl'))
+      // console.log(cProject.data('pageurl'));
       $('.li-side.active').removeClass('active');
       $('#_menuitem_'+id).addClass('active');
       load_background($('#_menuitem_'+id).data('back'));
