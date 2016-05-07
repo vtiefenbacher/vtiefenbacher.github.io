@@ -45,4 +45,10 @@ images:
     link: /illustrations/Mokant
     title: Mokant
     uid: "mokant"
+
+  - url: /assets/images/illustrations/home/rechnitzthump.jpg
+    alt: rechnitz img1
+    link: /illustrations/volkstheater
+    title: Rechnitz
+    uid: "volkstheater"
 ---
