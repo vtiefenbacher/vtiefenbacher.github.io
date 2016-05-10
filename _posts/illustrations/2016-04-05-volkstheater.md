@@ -19,13 +19,10 @@ images:
 Poster for the theatre play **Rechnitz (Der Würgeengel)** by **Elfriede Jelinek**
 <br>
 <br>
-Premiere: **11. December 2016**
-<br>
-<br>
 See more here:
-  [**Spielzeitbuch Volkstheater 2016/17**](https://issuu.com/volkstheaterwien/docs/2016-17_jahresvorschau_1_issuu_neu){:target="_blank"}
+  [*Spielzeitbuch Volkstheater 2016/17*](https://issuu.com/volkstheaterwien/docs/2016-17_jahresvorschau_1_issuu_neu){:target="_blank"}
 or here:
-[**Volkstheater**](http://www.volkstheater.at/){:target="_blank"}
+[*Volkstheater*](http://www.volkstheater.at/){:target="_blank"}
 
 
 ---
