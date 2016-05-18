@@ -12,15 +12,16 @@ images:
 <br>
 *1988* **born in Vienna.**
 
-*2007-2013* **Studies painting at the *University of Applied Arts*, Vienna (Univ. Prof. Johanna Kandl)**
+*2007-2013* **Fine Art/Painting studies at the University of Applied Arts, Vienna (Univ. Prof. Johanna Kandl)**
 
 *2008* **Merit scholarship.**
 
 *2009-2010* **Erasmus scholarship in Vilnius, Lithuania at the *Vilnius Dailes Academija*.**
 
-*2013* **Diploma work.**
+*2013* **Degree Show Academic Diploma**
 
-*2014* **Starts to work as an illustrator.**
+**Since 2014 working as freelance illustrator**
+
 <br>
 <br>
 <br>
