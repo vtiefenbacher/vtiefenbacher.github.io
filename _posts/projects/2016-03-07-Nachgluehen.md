@@ -10,7 +10,7 @@ images:
 
   - url: /assets/images/projects/Nachgluehen/nachgluehen3.jpg
     alt: Nachgluehen img1
-    title: Installation view from outside, wooden cube 4m x 3,5m x 2,3m, univesity of applied arts, june 2013
+    title: Installation view from outside, wooden cube 4m x 3,5m x 2,3m, university of applied arts, june 2013
 
   - url: /assets/images/projects/Nachgluehen/nachgluehen2.jpg
     alt: Nachgluehen img2

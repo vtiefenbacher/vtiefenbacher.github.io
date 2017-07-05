@@ -34,11 +34,18 @@ images:
     link: /projects/newspaperfigures
     uid: "newspaperfigures"
 
+  - url: /assets/images/projects/Elonmusk/elonmusk-title.jpg
+    alt: elonmusk-title img6
+    title: Elon Musk muss zum Waxing
+    link: /projects/Elonmusk
+    uid: "Elonmusk"
+
   - url: /assets/images/projects/home/Projekte_skype_thumb.jpg
     alt: stadtwildnis img6
     title: Skype
     link: /projects/Skype
     uid: "skype"
+
 
 
 
