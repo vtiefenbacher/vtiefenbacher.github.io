@@ -57,34 +57,34 @@ Dr. Silvia Schmid
 **Exhibitions:**
 <br>
 <br>
-*2018*
+*2018*  
 „You are here" Solo show at Kunstfabrik, Groß Siegharts (AT)
 
 „COLABOR Art/Science" Group show at Universität für angewandte Kunst, Vienna (AT)
 
-*2017*
+*2017*  
 „Art in Process - Process in Art“ Group show at Ausstellungsraum, Vienna (AT)
 
 „Forum Biotopia“ Art festival at Creau, Vienna (AT)
 
-*2014*
+*2014*  
 „Zwi(t)sche(r)n“ Group show at Offspace „school“, Vienna (AT)
 
-*2013*
+*2013*  
 Solo show „Nachglühen“ at Universität für angewandte Kunst, Vienna (AT)
 
 Screening, “Vienna in a Box”, Recyclart Studio Marcel, Brussels (BE)
 
-*2011*
+*2011*  
 Solo Show with [Julia Novacek](http://www.julianovacek.com/){:target="_blank"} „The Wind isn ́t blowing in the painting“ The pekfabriek, Antwerp (BE)
 
 „Storys from...“ Group show at Kunstraum Praterstraße, Vienna (AT)
 
-*2010*
+*2010*  
 „Black, White and None“ Group show at Fluxus Ministerija, Vilnius (LT)
 
-*2009*
+*2009*  
 „(Nach)Wirkungen“ ad Alice Schwarzer Group show at Ausstellungszentrum Heiligenkreuzer Hof, Vienna (AT)
 
-*2008*
+*2008*  
 Performance „Fenstertheater“, In der Kubatur des Kabinetts, curated by  Ursula Maria Probst, at Kunstsalon Fluc, Vienna (AT)
