@@ -39,6 +39,8 @@ images:
 
 [Julia Novacek](http://www.julianovacek.com/projekte/reisemobil-stellplatz/){:target="_blank"}
 
+Weingut Luef
+
 [Divercitylab](http://divercitylab.at/sheri-avraham/){:target="_blank"}
 
 [Mokant](http://mokant.at/){:target="_blank"}
@@ -55,6 +57,16 @@ Dr. Silvia Schmid
 **Exhibitions:**
 <br>
 <br>
+*2018*
+„You are here" Solo show at Kunstfabrik, Groß Siegharts (AT)
+
+„COLABOR Art/Science" Group show at Universität für angewandte Kunst, Vienna (AT)
+
+*2017*
+„Art in Process - Process in Art“ Group show at Ausstellungsraum, Vienna (AT)
+
+„Forum Biotopia“ Art festival at Creau, Vienna (AT)
+
 *2014*
 „Zwi(t)sche(r)n“ Group show at Offspace „school“, Vienna (AT)
 
