@@ -46,6 +46,11 @@ images:
     link: /projects/Skype
     uid: "skype"
 
+  - url: /assets/images/projects/youarehere/Youarehere-thumb.jpg
+    alt: youarehere img6
+    title: You are here
+    link: /projects/youarehere
+    uid: "youarehere"
 
 
 

@@ -31,9 +31,11 @@ images:
 <br>
 [Volkstheater](http://www.volkstheater.at/){:target="_blank"}
 
-[Forum umweltbildung](http://www.umweltbildung.at/nachrichten/langtexte/neuerscheinung-von-schweinen-und-brillanten.html){:target="_blank"}
+[Forum Umweltbildung](http://www.umweltbildung.at/nachrichten/langtexte/neuerscheinung-von-schweinen-und-brillanten.html){:target="_blank"}
 
 [Vice](http://www.vice.com/alps/read/philippinacht-bester-brauch-der-welt-279){:target="_blank"}
+
+Weingut Luef
 
 [Progress](https://www.progress-online.at/){:target="_blank"}
 
@@ -55,6 +57,16 @@ Dr. Silvia Schmid
 **Exhibitions:**
 <br>
 <br>
+*2018*
+„You are here" Solo show at Kunstfabrik, Groß Siegharts (AT)
+
+„COLABOR Art/Science" Group show at Universität für angewandte Kunst, Vienna (AT)
+
+*2017*
+„Art in Process - Process in Art“ Group show at Ausstellungsraum, Vienna (AT)
+
+„Forum Biotopia“ Art festival at Creau, Vienna (AT)
+
 *2014*
 „Zwi(t)sche(r)n“ Group show at Offspace „school“, Vienna (AT)
 
