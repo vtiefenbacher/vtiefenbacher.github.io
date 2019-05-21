@@ -48,7 +48,7 @@ images:
 
 ---
 <br>
-I did all Poster Illustration for Volkstheater Wien Season 2019/20  
+Poster Illustrations for Volkstheater Wien Season 2019/20  
 <br>
 <br>
 See more here:
