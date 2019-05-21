@@ -4,6 +4,12 @@ categories: project
 title: Projekte
 images:
 
+  - url: /assets/images/projects/youarehere/Youarehere-thumb.jpg
+    alt: youarehere img6
+    title: You are here
+    link: /projects/youarehere
+    uid: "youarehere"
+    
   - url: /assets/images/projects/home/art-getyoursnow-bild1_thumb.jpg
     alt: Get Yours Now Img1
     title: Get Yours Now
@@ -46,11 +52,7 @@ images:
     link: /projects/Skype
     uid: "skype"
 
-  - url: /assets/images/projects/youarehere/Youarehere-thumb.jpg
-    alt: youarehere img6
-    title: You are here
-    link: /projects/youarehere
-    uid: "youarehere"
+
 
 
 

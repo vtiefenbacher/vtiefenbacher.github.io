@@ -4,6 +4,12 @@ categories: illustration
 title: Illustrationen
 images:
 
+  - url: /assets/images/illustrations/volkstheaterplakate/faustin-thumb.jpg
+    alt: Faustin img1
+    link: /illustrations/volkstheaterplakate
+    title: Volkstheater Plakate
+    uid: "volkstheaterplakate"
+
   - url: /assets/images/illustrations/home/illu-Progress_thumb.jpg
     alt: Progress image
     link: /illustrations/progress
@@ -40,11 +46,11 @@ images:
     title: Sketches
     uid: "sketches"
 
-  - url: /assets/images/illustrations/home/illustration-mokant_thumb.jpg
-    alt: mokant img1
-    link: /illustrations/Mokant
-    title: Mokant
-    uid: "mokant"
+  - url: /assets/images/illustrations/reisegamble/reisegamble-thumb.jpg
+    alt: reisegamble img1
+    link: /illustrations/reisegamble
+    title: reisegamble
+    uid: "reisegamble"
 
   - url: /assets/images/illustrations/home/rechnitzthump.jpg
     alt: rechnitz img1
@@ -52,9 +58,5 @@ images:
     title: Rechnitz
     uid: "volkstheater"
 
-  - url: assets/images/illustrations/volkstheater-spielzeit 2019:20/faustin-thumb.jpg
-    alt: Faustin img1
-    link: /illustrations/volkstheaterplakate
-    title: Volkstheater Plakate
-    uid: "volkstheaterplakate"
+
 ---
