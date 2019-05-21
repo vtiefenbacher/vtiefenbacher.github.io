@@ -41,6 +41,8 @@ Weingut Luef
 
 [Julia Novacek](http://www.julianovacek.com/projekte/reisemobil-stellplatz/){:target="_blank"}
 
+Weingut Luef
+
 [Divercitylab](http://divercitylab.at/sheri-avraham/){:target="_blank"}
 
 [Mokant](http://mokant.at/){:target="_blank"}
@@ -57,34 +59,46 @@ Dr. Silvia Schmid
 **Exhibitions:**
 <br>
 <br>
+<<<<<<< HEAD
 *2018*
+=======
+*2018*  
+>>>>>>> da47a13c49e5864f5a756a589c6d508f62158eec
 „You are here" Solo show at Kunstfabrik, Groß Siegharts (AT)
 
 „COLABOR Art/Science" Group show at Universität für angewandte Kunst, Vienna (AT)
 
+<<<<<<< HEAD
 *2017*
+=======
+*2017*  
+>>>>>>> da47a13c49e5864f5a756a589c6d508f62158eec
 „Art in Process - Process in Art“ Group show at Ausstellungsraum, Vienna (AT)
 
 „Forum Biotopia“ Art festival at Creau, Vienna (AT)
 
+<<<<<<< HEAD
 *2014*
+=======
+*2014*  
+>>>>>>> da47a13c49e5864f5a756a589c6d508f62158eec
 „Zwi(t)sche(r)n“ Group show at Offspace „school“, Vienna (AT)
 
-*2013*
+*2013*  
 Solo show „Nachglühen“ at Universität für angewandte Kunst, Vienna (AT)
 
 Screening, “Vienna in a Box”, Recyclart Studio Marcel, Brussels (BE)
 
-*2011*
+*2011*  
 Solo Show with [Julia Novacek](http://www.julianovacek.com/){:target="_blank"} „The Wind isn ́t blowing in the painting“ The pekfabriek, Antwerp (BE)
 
 „Storys from...“ Group show at Kunstraum Praterstraße, Vienna (AT)
 
-*2010*
+*2010*  
 „Black, White and None“ Group show at Fluxus Ministerija, Vilnius (LT)
 
-*2009*
+*2009*  
 „(Nach)Wirkungen“ ad Alice Schwarzer Group show at Ausstellungszentrum Heiligenkreuzer Hof, Vienna (AT)
 
-*2008*
+*2008*  
 Performance „Fenstertheater“, In der Kubatur des Kabinetts, curated by  Ursula Maria Probst, at Kunstsalon Fluc, Vienna (AT)

@@ -51,4 +51,10 @@ images:
     link: /illustrations/volkstheater
     title: Rechnitz
     uid: "volkstheater"
+
+  - url: assets/images/illustrations/volkstheater-spielzeit 2019:20/faustin-thumb.jpg
+    alt: Faustin img1
+    link: /illustrations/volkstheaterplakate
+    title: Volkstheater Plakate
+    uid: "volkstheaterplakate"
 ---
