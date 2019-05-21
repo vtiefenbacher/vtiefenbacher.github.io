@@ -24,7 +24,7 @@ images:
     alt: peergynt-pferde img1
     title: Peer Gynt, Nur Pferden gibt man den Gnadenschuss
 
-  - url: /assets/images/illustrations/volkstheaterplakate/schuldsöhne-sezuan.jpg
+  - url: /assets/images/illustrations/volkstheaterplakate/schuldsoehne-sezuan.jpg
     alt: schuldsöhne-sezuan img1
     title: Schuld und Söhne, Der gute mensch von Sezuan
 
