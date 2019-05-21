@@ -9,12 +9,18 @@ images:
     title: You are here
     link: /projects/youarehere
     uid: "youarehere"
-    
+
   - url: /assets/images/projects/home/art-getyoursnow-bild1_thumb.jpg
     alt: Get Yours Now Img1
     title: Get Yours Now
     link: /projects/Get_Yours_Now
     uid: "getyoursnow"
+
+  - url: /assets/images/projects/Absence/zeitunquer.jpg
+    alt: absence img4
+    title: Absence
+    link: /projects/absence
+    uid: "absence"
 
   - url: /assets/images/projects/Nachgluehen/Nachgluehenlisa.jpg
     alt: Nachgluehen
@@ -22,11 +28,6 @@ images:
     link: /projects/Nachgluehen
     uid: "Nachgluehen"
 
-  - url: /assets/images/projects/Absence/zeitunquer.jpg
-    alt: absence img4
-    title: Absence
-    link: /projects/absence
-    uid: "absence"
 
   - url: /assets/images/projects/home/Art-Stadtwildnis-bild3_thumb.jpg
     alt: stadtwildnis img3
