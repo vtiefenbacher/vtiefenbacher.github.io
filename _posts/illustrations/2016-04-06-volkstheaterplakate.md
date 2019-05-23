@@ -5,16 +5,21 @@ title: Volkstheater Plakate
 date:   2019-05-20 14:18:12 +0100
 categories: illustration
 permalink: /illustrations/volkstheaterplakate
+backimage:
 
 images:
+
+  - url: /assets/images/illustrations/volkstheaterplakate/Wehedem-blume-des-koran.jpg
+    alt: Wehedem-blume-des-koran img1
+    title: Wehe dem, der lügt!, Monsieur Ibrahim und die Blumen des Koran
 
   - url: /assets/images/illustrations/volkstheaterplakate/Godot-Reissleine.jpg
     alt: volkstheater-godot-reissleine img1
     title: Warten auf Godot, Reissleine
 
-  - url: /assets/images/illustrations/volkstheaterplakate/Wehedem-blume-des-koran.jpg
-    alt: Wehedem-blume-des-koran img1
-    title: Wehe dem, der lügt!, Monsieur Ibrahim und die Blumen des Koran
+  - url: /assets/images/illustrations/volkstheaterplakate/Merowinger-final.jpg
+    alt: merowinger img1
+    title: Die Merowinger oder die totale Familie
 
   - url: /assets/images/illustrations/volkstheaterplakate/vater-schwereknochen.jpg
     alt: vater-schwereknochen img1
@@ -28,9 +33,6 @@ images:
     alt: schuldsöhne-sezuan img1
     title: Schuld und Söhne, Der gute mensch von Sezuan
 
-  - url: /assets/images/illustrations/volkstheaterplakate/merowinger.jpg
-    alt: merowinger img1
-    title: Die Merowinger oder die totale Familie
 
   - url: /assets/images/illustrations/volkstheaterplakate/Faustin-Strafkolonie.jpg
     alt: Faustin-Strafkolonie img1
@@ -52,9 +54,9 @@ Poster Illustrations for Volkstheater Wien Season 2019/20
 <br>
 <br>
 See more here:
-  [*Spielzeitbuch Volkstheater 2019/20*](https://issuu.com/volkstheaterwien/docs/2019-20_jahresvorschau_web_issuu){:target="_blank"}
+  [**Spielzeitbuch Volkstheater 2019/20**](https://issuu.com/volkstheaterwien/docs/2019-20_jahresvorschau_web_issuu){:target="_blank"}
 or here:
-[*Volkstheater*](http://www.volkstheater.at/){:target="_blank"}
+[**volkstheater.at**](http://www.volkstheater.at/){:target="_blank"}
 
 
 ---
