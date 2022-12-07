@@ -198,7 +198,8 @@ a {
 
 
 .aboutpage {
-  text-align: center;
+  text-align: left;
+  padding: 4rem 8rem !important;
   min-height: 500px;
   // width: auto;
   // display: table;
@@ -294,6 +295,17 @@ a {
   display: table-cell;
   font-size: 1.2em;
   vertical-align: middle;
+}
+
+.contact-content .social {
+  margin-top: 1.4rem
+}
+.contact-content .social img {
+  width: 36px;
+  opacity: .6;
+}
+.contact-content .social img:hover {
+  opacity: 1;
 }
 #newsletter {
   margin-top: 2em;

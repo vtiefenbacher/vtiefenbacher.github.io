@@ -8,6 +8,8 @@ images:
 ---
 **Valerie Tiefenbacher is a visual artist based in vienna.**
 
+[Portfolio](/assets/downloads/small-Portfolio-Valerie_Tiefenbacher-20.9.22.pdf)
+
 <br>
 <br>
 *1988* **born in Vienna.**
