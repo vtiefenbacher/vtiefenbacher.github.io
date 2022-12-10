@@ -1,15 +1,19 @@
 ---
 layout: post
 uid:     "volkstheater"
-title: Rechnitz
+title: Volkstheater Plakat 2016/17
 date:   2016-02-03 14:18:12 +0100
 categories: illustration
 permalink: /illustrations/volkstheater
-
+backimage: /assets/images/illustrations/volkstheater/rechnitz-buchansicht.jpg
 images:
 
   - url: /assets/images/illustrations/volkstheater/rechnitzcopy.jpg
-    alt: volkstheater img1
+    alt: volkstheater rechnitz img1
+    title:
+
+  - url: /assets/images/illustrations/volkstheater/plakat-volkstheater-rechnitz.jpg
+    alt: volkstheater rechnitz img2
     title:
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 uid:     "volkstheaterplakate"
-title: Volkstheater Plakate
+title: Volkstheater Plakate 2019/20
 date:   2019-05-20 14:18:12 +0100
 categories: illustration
 permalink: /illustrations/volkstheaterplakate
