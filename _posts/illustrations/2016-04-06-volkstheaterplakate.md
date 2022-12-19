@@ -5,9 +5,17 @@ title: Volkstheater Plakate 2019/20
 date:   2019-05-20 14:18:12 +0100
 categories: illustration
 permalink: /illustrations/volkstheaterplakate
-backimage:
+backimage: /assets/images/illustrations/volkstheaterplakate/Volkstheater-plakate-ansicht1.jpg
 
 images:
+
+  - url: /assets/images/illustrations/volkstheaterplakate/Volkstheater-plakate-ansicht1.jpg
+    alt: Volkstheater-plakate-ansicht-ubahn
+    title:
+
+  - url: /assets/images/illustrations/volkstheaterplakate/Volkstheater-plakate-ansicht3.jpg
+    alt: Volkstheater-plakate-merchendise
+    title:
 
   - url: /assets/images/illustrations/volkstheaterplakate/Wehedem-blume-des-koran.jpg
     alt: Wehedem-blume-des-koran img1

@@ -1,16 +1,16 @@
 ---
 layout: post
 uid:     "Editorial"
-title:  Editorial
+title:  Editorial Illustration
 date:   2022-12-07 14:18:12 +0100
 categories: illustration
-permalink: /illustrations/editorial
+permalink: /illustrations/Editorial
 descriptionempty: true
 backimage: /assets/images/illustrations/Editorial/valerie-tiefenbacher-falter-gefroreneeier1.jpg
 
 images:
 
-  - url: /assets/images/illustrations/Editorial/valerie-tiefenbacher-falter-gefroreneeier5.jpg
+  - url: /assets/images/illustrations/Editorial/valerie-tiefenbacher-falter-gefroreneeier-beide.jpg
     alt: Falter img1
     title: “Der verbotene Kinderwunsch” Falter, Ausgabe 8 / 2022
 

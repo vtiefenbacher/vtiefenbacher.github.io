@@ -4,18 +4,17 @@ categories: illustration
 title: Illustrationen
 images:
 
-  - url: /assets/images/illustrations/home/Muskelfurzundsuperkraft-cover-small.jpg
-    alt: Muskelbuch_Mockup_small img1
-    link: /illustrations/Muskel
-    title: Muskel, Furz und Superkraft
-    uid: "Muskel"
+  - url: /assets/images/illustrations/home/illu_mural-takeupspace_thumb.jpg
+    alt: takeupspace image
+    link: /illustrations/takeupspace
+    title: TAKE UP SPACE
+    uid: "takeupspace"
 
-
-  - url: /assets/images/illustrations/home/illu-Eigenproduktion_thumb.jpg
-    alt: allerlei img1
-    link: /illustrations/allerlei
-    title: Allerlei
-    uid: "allerlei"
+  - url: /assets/images/illustrations/home/rechnitzthump.jpg
+    alt: rechnitz img1
+    link: /illustrations/volkstheater
+    title: Rechnitz
+    uid: "volkstheater"
 
   - url: /assets/images/illustrations/home/illu_forum-Umweltbildung_thumb.jpg
     alt: mokant img1
@@ -26,41 +25,38 @@ images:
   - url: /assets/images/illustrations/home/valerie-tiefenbacher-falter-pandemie2-thumb.jpg
     alt: falter img1
     link: /illustrations/Editorial
-    title: editorial
+    title: Editorial
     uid: "Editorial"
 
+  - url: /assets/images/illustrations/home/Muskelfurzundsuperkraft-cover-small.jpg
+    alt: Muskelbuch_Mockup_small img1
+    link: /illustrations/Muskel
+    title: Muskel, Furz und Superkraft
+    uid: "Muskel"
 
-  - url: /assets/images/illustrations/home/illu_Eigenproduktion_Grimassen_thumb.jpg
-    alt: Grimassen image
-    link: /illustrations/grimassen
-    title: Grimassenschneiderin
-    uid: "grimassen"
+  - url: /assets/images/illustrations/home/illu_mural-volkstheaterplakate_thumb.jpg
+    alt: volkstheater plakate img1
+    link: /illustrations/volkstheaterplakate
+    title: Volkstheater Plakate 2019/20
+    uid: "volkstheaterplakate"
 
-  - url: /assets/images/illustrations/home/illu-Progress_thumb.jpg
-    alt: Progress image
-    link: /illustrations/progress
-    title: Progress
-    uid: "progress"
-
-
-  - url: /assets/images/illustrations/home/rechnitzthump.jpg
-    alt: rechnitz img1
-    link: /illustrations/volkstheater
-    title: Rechnitz
-    uid: "volkstheater"
-
-
-  - url: /assets/images/illustrations/home/illu_Eigenproduktionen_Skizzen_thumb.jpg
-    alt: sketches img1
-    link: /illustrations/sketches
-    title: Sketches
-    uid: "sketches"
+  - url: /assets/images/illustrations/home/illu_sammlung_.jpg
+    alt: sammlung img1
+    link: /illustrations/sammlung
+    title: Sammlung
+    uid: "sammlung"
 
   - url: /assets/images/illustrations/reisegamble/reisegamble-thumb.jpg
     alt: reisegamble img1
     link: /illustrations/reisegamble
     title: reisegamble
     uid: "reisegamble"
+
+  - url: /assets/images/illustrations/home/illu-fc-gloria_thumb.jpg
+    alt: fc-gloria image
+    link: /illustrations/fc-gloria
+    title: FC-Gloria
+    uid: "fc-gloria"
 
 
 ---
