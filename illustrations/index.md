@@ -4,11 +4,11 @@ categories: illustration
 title: Illustrationen
 images:
 
-  - url: /assets/images/illustrations/volkstheaterplakate/faustin-thumb.jpg
-    alt: Faustin img1
-    link: /illustrations/volkstheaterplakate
-    title: Volkstheater Plakate
-    uid: "volkstheaterplakate"
+  - url: /assets/images/illustrations/home/Muskelfurzundsuperkraft-cover-small.jpg
+    alt: Muskelbuch_Mockup_small img1
+    link: /illustrations/Muskel
+    title: Muskel, Furz und Superkraft
+    uid: "Muskel"
 
 
   - url: /assets/images/illustrations/home/illu-Eigenproduktion_thumb.jpg
@@ -23,11 +23,11 @@ images:
     title: Forum Umweltbildung
     uid: "forumumweltbildung"
 
-  - url: /assets/images/illustrations/home/illustration-vice-1_thumb.jpg
-    alt: vice img1
-    link: /illustrations/Vice
-    title: Vice
-    uid: "vice"
+  - url: /assets/images/illustrations/home/valerie-tiefenbacher-falter-pandemie2-thumb.jpg
+    alt: falter img1
+    link: /illustrations/Editorial
+    title: editorial
+    uid: "Editorial"
 
 
   - url: /assets/images/illustrations/home/illu_Eigenproduktion_Grimassen_thumb.jpg
