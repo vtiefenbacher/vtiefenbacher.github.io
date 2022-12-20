@@ -29,7 +29,7 @@ images:
     alt: volkstheater-godot-reissleine img1
     title:
 
-  - url: /assets/images/illustrations/volkstheaterplakate/hungerkünstler-Urfaust.jpg
+  - url: /assets/images/illustrations/volkstheaterplakate/hungerkuenstler-Urfaust.jpg
     alt: volkstheater plakat volx img1
     title:
 
@@ -41,7 +41,7 @@ images:
     alt: plakat volx img3
     title:
 
-  - url: /assets/images/illustrations/volkstheaterplakate/Merowinger-söhne.jpg
+  - url: /assets/images/illustrations/volkstheaterplakate/Merowinger-soehne.jpg
     alt: Plakat Volkstheater img1
     title:
 
