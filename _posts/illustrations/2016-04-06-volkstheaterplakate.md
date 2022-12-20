@@ -13,7 +13,7 @@ images:
     alt: Volkstheater-plakate-ansicht-ubahn
     title:
 
-  - url: /assets/images/illustrations/volkstheaterplakate/Volkstheater-plakate-ansicht3.jpg
+  - url: /assets/images/illustrations/volkstheaterplakate/volkstheater-plakate-ansicht3.jpg
     alt: Volkstheater-plakate-merchendise
     title:
 

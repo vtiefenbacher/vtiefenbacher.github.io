@@ -4,41 +4,47 @@ categories: illustration
 title: Illustrationen
 images:
 
-  - url: /assets/images/illustrations/home/illu_mural-takeupspace_thumb.jpg
-    alt: takeupspace image
-    link: /illustrations/takeupspace
-    title: TAKE UP SPACE
-    uid: "takeupspace"
-
-  - url: /assets/images/illustrations/home/rechnitzthump.jpg
-    alt: rechnitz img1
-    link: /illustrations/volkstheater
-    title: Rechnitz
-    uid: "volkstheater"
-
-  - url: /assets/images/illustrations/home/illu_forum-Umweltbildung_thumb.jpg
-    alt: mokant img1
-    link: /illustrations/forumumweltbildung
-    title: Forum Umweltbildung
-    uid: "forumumweltbildung"
-
-  - url: /assets/images/illustrations/home/valerie-tiefenbacher-falter-pandemie2-thumb.jpg
-    alt: falter img1
-    link: /illustrations/Editorial
-    title: Editorial
-    uid: "Editorial"
-
   - url: /assets/images/illustrations/home/Muskelfurzundsuperkraft-cover-small.jpg
     alt: Muskelbuch_Mockup_small img1
     link: /illustrations/Muskel
     title: Muskel, Furz und Superkraft
     uid: "Muskel"
 
+  - url: /assets/images/illustrations/home/valerie-tiefenbacher-falter-pandemie3.jpg
+    alt: falter img1
+    link: /illustrations/Editorial
+    title: Editorial
+    uid: "Editorial"
+
   - url: /assets/images/illustrations/home/illu_mural-volkstheaterplakate_thumb.jpg
     alt: volkstheater plakate img1
     link: /illustrations/volkstheaterplakate
     title: Volkstheater Plakate 2019/20
     uid: "volkstheaterplakate"
+
+  - url: /assets/images/illustrations/home/illu_welterbe2_thumb.jpg
+    alt: welterbe image
+    link: /illustrations/wundersameswelterbe
+    title: Wundersames Welterbe
+    uid: "wundersameswelterbe"
+
+  - url: /assets/images/illustrations/home/illu_mural-takeupspace_thumb.jpg
+    alt: takeupspace image
+    link: /illustrations/takeupspace
+    title: TAKE UP SPACE
+    uid: "takeupspace"
+
+  - url: /assets/images/illustrations/home/illu-fc-gloria_thumb.jpg
+    alt: fc-gloria image
+    link: /illustrations/fc-gloria
+    title: FC Gloria
+    uid: "fc-gloria"
+
+  - url: /assets/images/illustrations/home/rechnitzthump.jpg
+    alt: rechnitz img1
+    link: /illustrations/volkstheater
+    title: Rechnitz
+    uid: "volkstheater"
 
   - url: /assets/images/illustrations/home/illu_sammlung_.jpg
     alt: sammlung img1
@@ -52,11 +58,12 @@ images:
     title: reisegamble
     uid: "reisegamble"
 
-  - url: /assets/images/illustrations/home/illu-fc-gloria_thumb.jpg
-    alt: fc-gloria image
-    link: /illustrations/fc-gloria
-    title: FC-Gloria
-    uid: "fc-gloria"
+  - url: /assets/images/illustrations/home/illu_forum-Umweltbildung_thumb.jpg
+    alt: mokant img1
+    link: /illustrations/forumumweltbildung
+    title: Forum Umweltbildung
+    uid: "forumumweltbildung"
+
 
 
 ---
