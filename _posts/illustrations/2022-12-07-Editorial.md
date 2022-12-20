@@ -18,8 +18,8 @@ images:
     alt: Falter img2
     title: “Der verbotene Kinderwunsch” Falter, Ausgabe 8 / 2022
 
-  - url: /assets/images/illustrations/Editorial/valerie-tiefenbacher-falter-pandemie1.jpg
-    alt: Falter img3
+  - url: /assets/images/illustrations/Editorial/tiefenbacher-falter-pandemie1.jpg
+    alt: Falter img2
     title: “Am Höhepunkt der Pandemie” Falter, Ausgabe 1-2 / 2022
 
   - url: /assets/images/illustrations/Editorial/valerie-tiefenbacher-falter-pandemie2.jpg
@@ -37,7 +37,6 @@ images:
   - url: /assets/images/illustrations/Editorial/familienzeit-valerie-tiefenbacher-ansicht3.jpg
     alt: Familienzeit img2
     title: “Der Apfel fällt nicht weit vom Stamm” Familienzeit Magazin, Ausgabe 05 / 2022
-
 
   - url: /assets/images/illustrations/vice/Illustration-vice-1.jpg
     alt: vice img1
