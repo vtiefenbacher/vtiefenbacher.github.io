@@ -2,7 +2,7 @@
 layout: post
 uid:     "wundersameswelterbe"
 title:  Wundersames Welterbe
-date:   2021-02-03 14:18:12 +0100
+date:   2022-12-04 14:18:12 +0100
 categories: illustration
 permalink: /illustrations/wundersameswelterbe
 backimage: /assets/images/background/wunderbareswelterbe-valerietiefenbacher5.jpg

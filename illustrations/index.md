@@ -4,7 +4,7 @@ categories: illustration
 title: Illustrationen
 images:
 
-  - url: /assets/images/illustrations/home/Muskelfurzundsuperkraft-cover-small.jpg
+  - url: /assets/images/illustrations/home/Muskelbuch_Mockup2.jpg
     alt: Muskelbuch_Mockup_small img1
     link: /illustrations/Muskel
     title: Muskel, Furz und Superkraft
@@ -40,7 +40,7 @@ images:
     title: FC Gloria
     uid: "fc-gloria"
 
-  - url: /assets/images/illustrations/home/rechnitzthump.jpg
+  - url: /assets/images/illustrations/home/plakat-volstheater-logo.jpg
     alt: rechnitz img1
     link: /illustrations/volkstheater
     title: Rechnitz
