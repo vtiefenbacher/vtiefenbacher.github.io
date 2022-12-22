@@ -6,15 +6,15 @@ images:
 
   - url: /assets/images/illustrations/home/Muskelbuch_Mockup2.jpg
     alt: Muskelbuch_Mockup_small img1
-    link: /illustrations/Muskel
+    link: /illustrations/muskel
     title: Muskel, Furz und Superkraft
-    uid: "Muskel"
+    uid: "muskel"
 
   - url: /assets/images/illustrations/home/valerie-tiefenbacher-falter-pandemie3.jpg
     alt: falter img1
-    link: /illustrations/Editorial
+    link: /illustrations/editorial
     title: Editorial
-    uid: "Editorial"
+    uid: "editorial"
 
   - url: /assets/images/illustrations/home/illu_mural-volkstheaterplakate_thumb.jpg
     alt: volkstheater plakate img1
