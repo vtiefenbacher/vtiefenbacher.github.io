@@ -2,7 +2,7 @@
 layout: post
 uid:     "takeupspace"
 title:  TAKE UP SPACE
-date:   2022-12-08 14:18:12 +0100
+date:   2022-12-02 14:18:12 +0100
 categories: illustration
 permalink: /illustrations/takeupspace
 descriptionempty: true

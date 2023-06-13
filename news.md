@@ -2,6 +2,6 @@
 layout: news
 title: news
 permalink: /news/
-backimage: /assets/images/background/birkenwald3.jpg
+backimage: /assets/images/background/valerie-tiefenbacher-falter-pandemie2.jpg
 
 ---

@@ -1,10 +1,10 @@
 ---
 layout: post
-uid:     "Editorial"
+uid:     "editorial"
 title:  Editorial Illustration
-date:   2022-12-07 14:18:12 +0100
+date:  2022-12-30 14:18:12 +0100
 categories: illustration
-permalink: /illustrations/Editorial
+permalink: /illustrations/editorial
 descriptionempty: true
 backimage: /assets/images/illustrations/Editorial/valerie-tiefenbacher-falter-gefroreneeier1.jpg
 
@@ -18,11 +18,11 @@ images:
     alt: Falter img2
     title: “Der verbotene Kinderwunsch” Falter, Ausgabe 8 / 2022
 
-  - url: /assets/images/illustrations/Editorial/tiefenbacher-falter-pandemie1.jpg
+  - url: /assets/images/illustrations/Editorial/valerie-tiefenbacher-falter-pandemie2.jpg
     alt: Falter img2
     title: “Am Höhepunkt der Pandemie” Falter, Ausgabe 1-2 / 2022
 
-  - url: /assets/images/illustrations/Editorial/valerie-tiefenbacher-falter-pandemie2.jpg
+  - url: /assets/images/illustrations/Editorial/valerie-tiefenbacher-falter-pandemie1.jpg
     alt: Falter img4
     title: “Am Höhepunkt der Pandemie” Falter, Ausgabe 1-2 / 2022
 
@@ -30,13 +30,21 @@ images:
     alt: Falter img5
     title: “Am Höhepunkt der Pandemie” Falter, Ausgabe 1-2 / 2022
 
+  - url: /assets/images/illustrations/Editorial/valerie-tiefenbacher-styleinprogress1.jpg
+    alt: style in progress img1
+    title:
+
+  - url: /assets/images/illustrations/Editorial/valerie-tiefenbacher-styleinprogress2.jpg
+    alt: style in progress img1
+    title: Style in Progress Magazin 2023 in cooperation with carolineseidler.com
+
   - url: /assets/images/illustrations/Editorial/familienzeit-ansicht-valerie-tiefenbacher2.jpg
     alt: Familienzeit img1
-    title: “Der Apfel fällt nicht weit vom Stamm” Familienzeit Magazin, Ausgabe 05 / 2022
+    title: “Der Apfel fällt nicht weit vom Stamm” Familienzeit Magazin, Ausgabe 05 / 2022 cooperation with carolineseidler.com
 
   - url: /assets/images/illustrations/Editorial/familienzeit-valerie-tiefenbacher-ansicht3.jpg
     alt: Familienzeit img2
-    title: “Der Apfel fällt nicht weit vom Stamm” Familienzeit Magazin, Ausgabe 05 / 2022
+    title: “Der Apfel fällt nicht weit vom Stamm” Familienzeit Magazin, Ausgabe 05 / 2022 cooperation with carolineseidler.com
 
   - url: /assets/images/illustrations/vice/Illustration-vice-1.jpg
     alt: vice img1

@@ -1,7 +1,7 @@
 ---
 layout: homepage
 title: AKTUELL
-backimage: /assets/images/background/birkenwald2.jpg
+backimage: /assets/images/background/sara-vally-Muskelbuch2.jpg
 
 ---
 
