@@ -22,7 +22,7 @@ images:
     alt: Falter img2
     title: “Am Höhepunkt der Pandemie” Falter, Ausgabe 1-2 / 2022
 
-  - url: /assets/images/illustrations/Editorial/valerie-tiefenbacher-falter-pandemie1.jpg
+  - url: /assets/images/illustrations/Editorial/tiefenbacher-falter-pandemie1.jpg
     alt: Falter img4
     title: “Am Höhepunkt der Pandemie” Falter, Ausgabe 1-2 / 2022
 

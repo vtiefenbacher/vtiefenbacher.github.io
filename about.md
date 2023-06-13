@@ -12,9 +12,9 @@ images:
   title:
 
 ---
-**VALERIE TIEFENBACHER is a visual artist and illustrator based in vienna.**
+**I´m a visual artist and illustrator based in vienna. Feel free to contact me for collaborations!**
 
-[**DOWNLOAD PORTFOLIO HERE**](/assets/downloads/Portfolio_Editorial-Illustration-VT.pdf)
+[**DOWNLOAD ILLUSTRATION PORTFOLIO HERE**](/assets/downloads/Portfolio_Editorial-Illustration-VT.pdf)
 
 <br>
 <br>
