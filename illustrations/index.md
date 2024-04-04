@@ -29,7 +29,7 @@ images:
     title: Club der kalten Hände
     uid: "Club"
 
-  - url: /assets/images/illustrations/home/diagonale2-thumb.jpg
+  - url: /assets/images/illustrations/home/Diagonale2-thumb.jpg
     alt: diagonale image
     link: /illustrations/diagonale
     title: Diagonale Bierdeckel
