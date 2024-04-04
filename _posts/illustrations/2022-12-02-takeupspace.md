@@ -1,7 +1,7 @@
 ---
 layout: post
 uid:     "takeupspace"
-title:  TAKE UP SPACE
+title:  Take up Space
 date:   2022-12-02 14:18:12 +0100
 categories: illustration
 permalink: /illustrations/takeupspace
