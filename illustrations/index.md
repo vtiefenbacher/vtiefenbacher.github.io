@@ -35,7 +35,7 @@ images:
     title: Diagonale Bierdeckel
     uid: "diagonale"
 
-  - url: /assets/images/illustrations/home/Löwenkind3-thumb.png
+  - url: /assets/images/illustrations/home/Löwenbuch3-thumb.jpg
     alt: Löwenbuch img1
     link: /illustrations/Löwenbuch
     title: Löwenbuch
