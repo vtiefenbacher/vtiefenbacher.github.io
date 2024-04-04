@@ -35,13 +35,13 @@ images:
     title: Diagonale Bierdeckel
     uid: "diagonale"
 
-  - url: /assets/images/illustrations/home/Löwenbuch3-thumb.jpg
+  - url: /assets/images/illustrations/home/Loewenbuch3-thumb.jpg
     alt: Löwenbuch img1
     link: /illustrations/Löwenbuch
     title: Löwenbuch
     uid: "Löwenbuch"
 
-  - url: /assets/images/illustrations/home/Editorial2-thumb.jpg
+  - url: /assets/images/illustrations/home/valerie-tiefenbacher-falter-pandemie3.jpg
     alt: falter img1
     link: /illustrations/editorial
     title: Editorial Illustration
