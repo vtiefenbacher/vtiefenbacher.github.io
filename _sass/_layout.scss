@@ -5,8 +5,8 @@ html {
 }
 
 body {
-  font-family: 'GenomeThin', Helvetica;
-  font-size: 14px;
+  font-family: 'Avenir medium';
+  font-size: 16px;
   margin: 0;
   padding: 0;
   position: relative;
@@ -44,20 +44,20 @@ a {
 }
 
 .active {
-  font-family: 'Helvetica Neue';
-  font-style: italic;
+  font-family: 'Avenir';
+  font-style: book;
 }
 
 #left-container {
   position: fixed;
   padding: 60px 50px 0 80px;
   // height: 80%;
-  width: 220px;
+  width: 240px;
   background-color: #fff;
 }
 
 #right-container {
-  font-family: 'GenomeThin', serif;
+  font-family: 'Avenir', serif;
   font-style: normal;
   font-weight: normal;
   margin-left: 310px;
@@ -76,12 +76,12 @@ a {
 #title-header {
   font-size: 2em;
   margin: 0;
-  font-weight: normal;
+  font-weight: medium;
 }
 
 #menu-list {
   font-size: 1.2em;
-  margin-top: 50px;
+  margin-top: 20px;
   padding: 0;
 }
 
@@ -90,7 +90,7 @@ a {
 }
 
 .menu-item a:hover {
-  font-family: 'Helvetica Neue';
+  font-family: 'Avenir';
   font-style: italic;
 }
 .submenu {
@@ -104,7 +104,7 @@ a {
 }
 
 .post-title {
-  font-weight: normal;
+  font-weight: medium;
   text-transform: uppercase;
   font-size: 1.8em;
 }
